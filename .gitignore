@@ -1,0 +1,13 @@
+# Jekyll
+.sass-cache
+.jekyll-metadata
+.jekyll-cache
+_site/
+
+# Zola
+public/
+
+# Dev
+node_modules/
+assets/css/*.css
+.env
