@@ -1,0 +1,28 @@
+{
+  "name": "terragrams.com",
+  "version": "1.0.0",
+  "description": "- From the main directory:",
+  "repository": "https://github.com/philipbelesky/terragrams",
+  "main": "index.js",
+  "scripts": {
+    "test": "htmlproofer --extension .html ./public",
+    "lint": "stylelint 'sass/**/*.scss' --config 'sass/.stylelintrc'",
+    "lint-fix": "stylelint 'sass/**/*.scss' --config 'sass/.stylelintrc' --fix",
+    "bundle": "npx terser ./node_modules/instant.page/instantpage.js ./static/main.js --compress --mangle --output 'static/main.min.js' --source-map 'filename'='static/main.min.js.map'",
+    "serve": "zola serve --drafts -p 4003 --interface 0.0.0.0  --base-url 10.0.1.100",
+    "preview": "zola serve -p 4003 --interface 0.0.0.0  --base-url 10.0.1.100",
+    "build": "zola build",
+    "publish": "npm run build && npm run test && s3_website push"
+  },
+  "author": "Philip Belesky",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "instant.page": "^3.0.0",
+    "terser": "^4.4.2"
+  },
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-standard": "^19.0.0"
+  }
+}
