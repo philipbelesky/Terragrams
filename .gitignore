@@ -6,6 +6,9 @@ _site/
 
 # Zola
 public/
+# Minified files server to main directory
+static/main.min.js
+static/main.min.js.map
 
 # Dev
 node_modules/

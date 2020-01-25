@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ config.title }}</title>
+  <base href="{{ current_url|safe }}">
+
+  <meta name="description" content="{{ config.description|safe }}">
+  <meta name="author" content="Philip Belesky">
+  <meta name="twitter:creator" content="@philipbelesky">
+
+  <link rel="stylesheet" href="{{ config.base_url ~ '/style.css'}}" />
+  <link rel="icon" type="image/png" href="{{ get_url(path='/logo-32x32.png')|safe }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ get_url(path='/logo-16x16.png')|safe }}" sizes="16x16" />
+
+  <link rel="canonical" href="{{ current_url|safe }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ config.base_url ~ "/rss.xml"}}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ config.base_url ~ "/sitemap.xml"}}">
+
+</head>
+
+<body>
+
+  <header class="section has-text-centered">
+    <img src="{{ config.base_url ~ '/logo.png' }}">
+    <h1 class="is-size-2">Terragrams</h1>
+    <div class="">
+      <a href="{{ config.base_url ~ "/rss.xml"}}"><img src="{{ config.base_url ~ '/button-rss.svg' }}"></a>
+      <a href=""><img src="{{ config.base_url ~ '/button-castro.svg' }}"></a>
+      <a href=""><img src="{{ config.base_url ~ '/button-itunes.svg' }}"></a>
+      <a href=""><img src="{{ config.base_url ~ '/button-overcast.svg' }}"></a>
+    </div>
+  </header>
+
+  <main class="section">
+    {%- block content -%}{%- endblock content -%}
+  </main>
+
+  <footer class="section has-text-centered">
+    What goes here?
+  </footer>
+
+</body>
+</html>

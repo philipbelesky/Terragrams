@@ -1,19 +1,26 @@
+{%- extends "base.html" -%}
 
+{%- block content -%}
 
+<div class="container">
 
+  <p>
+    Terragrams is a podcast series disseminating discussions about the landscape. As our societal conscience and appreciation of the landscape heightens, Terragrams provides a wide portal into landscape architecture and the lives and thoughts of the professionals who shape it. The project aims at capturing, distributing and archiving these voices. It is an easily accessible, open audio digital archive aimed at collecting first-hand, face-to-face conversations between and about people in and around the field. <a href="/about.html">More about Terragrams</a>
+  </p>
 
+  {%- set episodes = get_section(path="episodes/_index.md") -%}
 
+  <h3 class="is-size-4 has-text-centered">Latest Episodes</h3>
 
-## About Terragrams
+  {% for episode in episodes.pages | sort(attribute="date") | reverse %}
+    <div class="card">
+      <div class="card-content">
+        <h4 class="is-size-4"><a href="{{ episode.permalink }}">{{ episode.title }}</a></h4>
+        <p>add description</p>
+      </div>
+    </div>
+  {% endfor %}
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab LIPSUM
+</div>
 
-More about terragrams
-
-Subscribe buttons
-
-## Latest Terragrams
-
-#### Episode X
-
-#### Episode Y
+{%- endblock content -%}
