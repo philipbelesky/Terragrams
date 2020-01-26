@@ -1,0 +1,27 @@
+// Site styles
+body {
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'ArialRoundedMTBold', 'Arial Rounded MT Bold', 'Arial', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  color: rgb(66, 66, 66);
+  line-height: 1;
+}
+
+.logo-mark {
+  max-width: 103px;
+}
+
+.tagline {
+  margin-bottom: 1em;
+}
+

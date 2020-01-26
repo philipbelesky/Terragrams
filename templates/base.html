@@ -25,12 +25,13 @@
 <body>
 
   <header class="section has-text-centered">
-    <a href="{{ config.base_url }}"><img src="{{ config.base_url ~ '/logo.png' }}" alt="The Terragrams logo"></a>
-    <a href="{{ config.base_url }}"><h1 class="is-size-2">Terragrams</h1></a>
-    <div class="">
-      <a href=""><img src="{{ config.base_url ~ '/button-itunes.svg' }}" alt="Subscribe in iTunes"></a>
+    <a href="{{ config.base_url }}"><img class="logo-mark" src="{{ config.base_url ~ '/logo.png' }}" alt="The Terragrams logo"></a>
+    <h1 class="is-size-2 logo"><a href="{{ config.base_url }}">Terragrams</a></h1>
+    <h6 class="is-size-6 tagline"><em>delivering the landscape</em></h6>
+    <div class="subscribes">
+      <a href=""><img src="{{ config.base_url ~ '/button-apple.svg' }}" alt="Subscribe on Apple Podcasts"></a>
+      <a href=""><img src="{{ config.base_url ~ '/button-google.svg' }}" alt="Subscribe on Google Podcasts"></a>
       <a href="{{ config.base_url ~ "/rss.xml" }}"><img src="{{ config.base_url ~ '/button-rss.svg' }}" alt="Subscribe using RSS"></a>
-      <a href=""><img src="{{ config.base_url ~ '/button-castro.svg' }}" alt="Subscribe in Castro"></a>
       <a href=""><img src="{{ config.base_url ~ '/button-overcast.svg' }}" alt="Subscribe in Overcast"></a>
     </div>
   </header>

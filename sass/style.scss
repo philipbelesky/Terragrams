@@ -4,16 +4,7 @@
 @import "../node_modules/bulma/sass/utilities/initial-variables.sass";
 
 // Customise Bulma
-@font-face {
-  font-family: 'Neuton';
-  font-display: auto;
-  src:
-    url('/fonts/neuton-latin-400.woff') format('woff2'),
-    url('/fonts/neuton-latin-400.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-$family-sans-serif: "Neuton";
+@import "./custom";
 
 // Import Bulma Utilities
 @import "../node_modules/bulma/sass/utilities/_all";
@@ -57,5 +48,4 @@ $family-sans-serif: "Neuton";
 @import "../node_modules/bulma/sass/layout/_all";
 
 // Terragrams' Styles
-// Layout
-@import "./custom";
+@import "./terragrams";
