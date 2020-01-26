@@ -1,6 +1,6 @@
 +++
-title = ""
-description = ""
+title = "About Terragrams"
+template = "about.html"
 +++
 
 Terragrams is a podcast series disseminating discussions about the landscape. As our societal conscience and appreciation of the landscape heightens, Terragrams provides a wide portal into landscape architecture and the lives and thoughts of the professionals who shape it. The project aims at capturing, distributing and archiving these voices. It is an easily accessible, open audio digital archive aimed at collecting first-hand, face-to-face conversations between and about people in and around the field.

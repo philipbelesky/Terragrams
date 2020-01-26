@@ -2,11 +2,32 @@
 
 {%- block content -%}
 
-  <article role="main">
+  {% include "partials/blurb.html" %}
 
-    <main class="">
-      {{ page.content }}
-    </main>
+  <article class="content">
+
+    <h1 class="is-size-2 has-text-centered">{{ page.title }}</h1>
+    <div class="level">
+      <div class="level-item"></div>
+      <div class="level-item tag is-primary is-size-6">
+        Originally published {{ page.extra.original_date|date(format="%d %B, %Y") }}
+      </div>
+      <div class="level-item"></div>
+      <div class="level-item tag is-primary is-size-6">
+        Republished {{ page.date|date(format="%d %B, %Y") }}
+      </div>
+      <div class="level-item"></div>
+    </div>
+
+    <div class="card">
+      <figure class="card-content">
+        <audio controls src="{{ page.extra.file }}">
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+      </figure>
+    </div>
+
+    {{ page.content | safe }}
 
   </article>
 
