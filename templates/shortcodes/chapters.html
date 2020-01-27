@@ -1,0 +1,19 @@
+<div class="tile is-ancestor">
+
+  {% for image in images %}
+    {%- set url = "../static/" ~ page.path ~ image -%}
+    {%- set img = resize_image(path=url, width=400, quality=75, op='fit_width') -%}
+    {%- set times = times[loop.index0] -%}
+    {%- set titles = titles[loop.index0] -%}
+    {%- set credits = credits[loop.index0] -%}
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-info">
+        <p class="title">{{ times }} {{ titles }}</p>
+        <img src="{{ img|safe }}">
+        <p class="subtitle">{{ credits }}</p>
+      </article>
+    </div>
+  {% endfor %}
+
+</div>
+

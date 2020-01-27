@@ -36,15 +36,13 @@
     </div>
   </header>
 
-  <main class="section">
-    <div class="container">
-      {%- block content -%}{%- endblock content -%}
-    </div>
+  <main class="container">
+    {%- block content -%}{%- endblock content -%}
   </main>
 
-  <footer class="section has-text-centered">
+{#   <footer class="section has-text-centered">
     What goes here?
-  </footer>
+  </footer> #}
   {# <br><br><br><br>DEBUG: {{ __tera_context }} #}
 
   {% if not config.extra.debug -%}<script>

@@ -9,6 +9,7 @@ public/
 # Minified files server to main directory
 static/main.min.js
 static/main.min.js.map
+static/processed_images
 
 # Dev
 node_modules/
