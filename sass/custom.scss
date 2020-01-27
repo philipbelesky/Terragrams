@@ -1,21 +1,18 @@
 // Customise Bulma
 @font-face {
-  font-family: 'Neuton';
+  font-family: 'Varela';
   font-display: auto;
   src:
-    url('/fonts/neuton-latin-400.woff') format('woff2'),
-    url('/fonts/neuton-latin-400.woff') format('woff');
+    url('/fonts/varela-round-v12-latin-regular.woff2') format('woff2'),
+    url('/fonts/varela-round-v12-latin-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-$family-sans-serif: "Neuton";
+$family-sans-serif: "SF Pro Rounded", "Roboto", "Segoe UI";
 
 $primary: rgb(121, 121, 121);
 $link: $primary;
 
 $section-padding: 1.5rem 1.5rem 0;
-
-.subscribes img {
-  max-width: 132px;
-}
+$notification-padding: 1.25rem;
