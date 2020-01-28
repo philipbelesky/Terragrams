@@ -12,9 +12,3 @@ In the debut Terragram, Julie Bargmann, the founder of [D.I.R.T. Studio](https
 
 Find out more about Bargmann, The Queen of Slag, through these articles/interviews in [Time Magazine](http://content.time.com/time/magazine/article/0,9171,997498,00.html), and [Studio 360](https://www.wnyc.org/story/116848-special-guest-julie-bargmann/). D.I.R.T. Studio is the first recipient of the University of Wisconsin-Milwaukee’s Urban Edge Award. January 31, 2006
 
-{{ chapters(
-    images=["1.jpg", "2.jpg", "3.jpg"],
-    times=["1:54", "5:11", "10:09"],
-    titles=["Test1", "Test2", "Test3"],
-    credits=["Test1", "Test2", "Test3"]
-)}}

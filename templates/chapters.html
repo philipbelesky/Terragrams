@@ -1,0 +1,46 @@
+{% set data_path = "content/episodes/" ~ page.slug ~ ".toml" %}
+{% set episode_data = load_data(path=data_path) %}
+{% set tile_size_tally = 0 %}
+
+<section class="chapters">
+  {% for chapter in episode_data.chapters %}
+
+    {# Set image from static directory #}
+    {% if chapter.image %}
+      {%- set img_path = "../static/" ~ page.path ~ chapter.image -%}
+      {%- set img = resize_image(path=img_path, width=400, quality=75, op='fit_width') -%}
+    {% endif %}
+
+    {% if loop.first %}<div class="tile is-ancestor">{% endif %}
+    {# Track tile sizes to intelligently create new rows #}
+    {% if chapter.size %}
+      {% set tile_size = chapter.size %}
+    {% else %}
+      {% set tile_size = 4 %}
+    {% endif %}
+    {% set_global tile_size_tally = tile_size_tally + tile_size %}
+    {% if tile_size_tally > 12 %}
+      </div><div class="tile is-ancestor">
+      {% set_global tile_size_tally = 0 %}
+    {% endif %}
+
+    <div class="tile has-text-centered is-parent is-{{ tile_size }}">
+      <article class="tile is-child notification palette-{{ loop.index }}">
+        <p class="title is-size-5">{{ chapter.time }}<br>{{ chapter.title }}</p>
+        {% if img %}
+          <a href="{{ img_path }}" target="_blank"><img src="{{ img|safe }}"></a>
+        {% endif %}
+        {% if chapter.credit %}
+          <p class="subtitle">
+            {% if chapter.link %}<a href="{{ chapter.link }}" target="_blank">{% endif %}
+            <em>{{ chapter.credit }}</em>
+            {% if chapter.link %}</a>{% endif %}
+          </p>
+        {% endif %}
+      </article>
+    </div>
+
+    {% if loop.last %}</div>{% endif %}
+
+  {% endfor %}
+</section>
