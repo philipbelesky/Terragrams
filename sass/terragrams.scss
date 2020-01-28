@@ -1,6 +1,8 @@
+@import "./custom";
+
 // Site styles
 body {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 h1,
@@ -14,15 +16,11 @@ h4 {
   font-weight: 700;
   letter-spacing: 0.1em;
   line-height: 1;
-  color: #515151;
-}
-
-a {
-  text-decoration: underline;
+  color: $brand;
 }
 
 .logo a {
-  text-decoration: none;
+  color: $brand;
 }
 
 .logo-mark {
@@ -31,6 +29,18 @@ a {
 
 .tagline {
   margin: 0.5em 0 1em 0;
+}
+
+.push-down {
+  margin-bottom: $spacing-rhythm;
+}
+
+.half-push-down {
+  margin-bottom: $spacing-rhythm * 0.5;
+}
+
+.push-up {
+  margin-top: $spacing-rhythm;
 }
 
 .subscribes img {

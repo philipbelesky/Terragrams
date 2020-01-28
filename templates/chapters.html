@@ -26,7 +26,15 @@
 
     <div class="tile has-text-centered is-parent is-{{ tile_size }}">
       <article class="tile is-child notification palette-{{ loop.index }}">
-        <p class="title is-size-5">{{ chapter.time }}<br>{{ chapter.title }}</p>
+        <div class="level">
+          <div class="level-item tag is-primary is-size-6">
+            Chapter {{ loop.index }}
+          </div>
+          <div class="level-item tag is-primary is-size-6">
+            From {{ chapter.time }}
+          </div>
+        </div>
+        <p class="title is-size-5">{{ chapter.title }}</p>
         {% if img %}
           <a href="{{ img_path }}" target="_blank"><img src="{{ img|safe }}"></a>
         {% endif %}

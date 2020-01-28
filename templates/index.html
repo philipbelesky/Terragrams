@@ -4,16 +4,34 @@
 
   {% include "partials/blurb.html" %}
 
-  <h3 class="is-size-4 has-text-centered">Latest Episodes</h3>
+  {# <h3 class="is-size-4 has-text-centered push-up push-down">Latest Episodes</h3> #}
 
-  {%- set episodes = get_section(path="episodes/_index.md") -%}
-  {% for episode in episodes.pages | sort(attribute="date") | reverse | slice(end=5) %}
-    <article class="card">
-      <div class="card-content content">
-        <h4 class="is-size-4"><a href="{{ episode.permalink }}">{{ episode.title }}</a></h4>
-        <p>{{ episode.description }}</p>
-      </div>
-    </article>
-  {% endfor %}
+  <div class="section">
+    {%- set episodes = get_section(path="episodes/_index.md") -%}
+    {% for episode in episodes.pages | sort(attribute="date") | reverse | slice(end=5) %}
+      <a href="{{ episode.permalink }}" class="push-down is-block">
+        <article class="card">
+          <div class="card-content content">
+            <h4 class="is-size-3 has-text-centered">{{ episode.title }}</h4>
+            <div class="level has-text-centered half-push-down">
+              <div class="level-item tag is-primary is-size-6">
+                First published {{ episode.extra.original_date|date(format="%d %B, %Y") }}
+              </div>
+              <div class="level-item tag is-primary is-size-6">
+                Republished {{ episode.date|date(format="%d %B, %Y") }}
+              </div>
+            </div>
+            <p>{{ episode.description }}</p>
+          </div>
+        </article>
+      </a>
+    {% endfor %}
+  </div>
+
+  {% if episodes | length > 5 %}
+    <h3 class="is-size-4 has-text-centered push-down">
+      <a href="{{ config.base_url ~ '/episodes' }}">View All Episodes</a>
+    </h3>
+  {% endif %}
 
 {%- endblock content -%}

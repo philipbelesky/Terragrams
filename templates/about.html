@@ -2,10 +2,12 @@
 
 {%- block content -%}
 
-  <article class="content">
-
-    {{ page.content | safe }}
-
-  </article>
+  <div class="section">
+    <article class="card">
+      <div class="content card-content">
+        {{ page.content | safe }}
+      </div>
+    </article>
+  </div>
 
 {%- endblock content -%}

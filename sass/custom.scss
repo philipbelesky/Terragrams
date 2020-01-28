@@ -9,10 +9,12 @@
   font-style: normal;
 }
 
-$family-sans-serif: "SF Pro Rounded", "Roboto", "Segoe UI";
+$family-sans-serif: "SF Pro Rounded", "SF Rounded", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI";
 
-$primary: #515151;
-$link: $primary;
+$brand: #515151;
+$link: rgb(153, 194, 74);
 
-$section-padding: 1.5rem 1.5rem 0;
-$notification-padding: 1.25rem;
+$spacing-rhythm: 1em;
+
+$section-padding: $spacing-rhythm $spacing-rhythm 0;
+$notification-padding: $spacing-rhythm;
