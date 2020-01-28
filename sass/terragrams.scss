@@ -12,17 +12,25 @@ h4 {
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  color: rgb(66, 66, 66);
+  letter-spacing: 0.1em;
   line-height: 1;
+  color: #515151;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 .logo-mark {
-  max-width: 103px;
+  max-width: 75px;
 }
 
 .tagline {
-  margin-bottom: 1em;
+  margin: 0.5em 0 1em 0;
 }
 
 .subscribes img {
@@ -32,3 +40,15 @@ h4 {
 audio {
   width: 100%; // Span full space
 }
+
+.chapters {
+
+  .is-ancestor {
+    justify-content: space-around; // Center align chapter boxes
+
+    .is-parent {
+      align-items: center;
+    }
+  }
+}
+
