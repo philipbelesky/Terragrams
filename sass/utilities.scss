@@ -13,6 +13,10 @@
   margin-top: $block-spacing;
 }
 
+.no-push-up {
+  padding-top: 0; // Override section spacing (e.g. for header)
+}
+
 
 // Thanks to https://medium.com/dev-channel/using-sass-to-automatically-pick-text-colors-4ba7645d2796
 @function luminance($color) {
@@ -35,10 +39,10 @@
   $darkContrast: contrast($color, black);
 
   @if ($lightContrast > $darkContrast) {
-    @return white;
+    @return hsl(78, 23%, 85%);
   }
   @else {
-    @return black;
+    @return hsl(165, 35%, 20%);
   }
 }
 

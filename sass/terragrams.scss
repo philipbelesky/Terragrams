@@ -19,6 +19,10 @@ h4 {
   margin-bottom: 0;
 }
 
+.content .force-link {
+  color: $link; // For when we want to force a link color in a wrapped block
+}
+
 .content h1,
 .content h2,
 .content h3,
@@ -48,8 +52,15 @@ h4 {
   margin: 0.5em 0 1em 0;
 }
 
-.subscribes img {
-  max-width: 132px;
+.subscribes {
+
+  a {
+    border-bottom: 0;
+    padding: 0;
+  }
+  img {
+    max-width: 132px;
+  }
 }
 
 // Episodes
@@ -58,12 +69,14 @@ audio {
 }
 
 .chapters {
+  margin-top: $block-spacing * 2;
 
   .card.is-parent {
     padding: 0; // Flush background
   }
 
-  .tag, img {
+  .tile .tag,
+  .tile img {
     background-color: rgba(100%, 100%, 100%, 0.25);
     border-radius: $half-border-radius;
   }
