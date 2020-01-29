@@ -8,26 +8,26 @@
 
     <div class="card">
       <div class="card-content">
-        <h1 class="is-size-3 has-text-centered half-push-down">{{ page.title }}</h1>
-        <div class="level has-text-centered half-push-down">
-          <div class="level-item tag is-primary is-size-6">
-            First published {{ page.extra.original_date|date(format="%d %B, %Y") }}
-          </div>
-          <div class="level-item tag is-primary is-size-6">
-            Republished {{ page.date|date(format="%d %B, %Y") }}
-          </div>
-        </div>
+        {% include "partials/episode-header.html" %}
         <audio controls src="{{ page.extra.file }}">
           Your browser does not support the <code>audio</code> element.
         </audio>
       </div>
     </div>
 
-    <article class="content push-up">
-      {{ page.content | safe }}
+  </div>
+
+  <div class="section">
+
+    <article class="content">
+      <div class="card">
+        <div class="card-content">
+          {{ page.content | safe }}
+        </div>
+      </div>
     </article>
 
-    {% include "chapters.html" %}
+    {% include "partials/chapters.html" %}
 
   </div>
 

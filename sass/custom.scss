@@ -12,9 +12,16 @@
 $family-sans-serif: "SF Pro Rounded", "SF Rounded", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI";
 
 $brand: #515151;
-$link: rgb(153, 194, 74);
+$link: rgb(102, 153, 0);
 
-$spacing-rhythm: 1em;
+$block-spacing: 1rem;
 
-$section-padding: $spacing-rhythm $spacing-rhythm 0;
-$notification-padding: $spacing-rhythm;
+$section-padding: $block-spacing * 2 $block-spacing 0;
+$card-content-padding: $block-spacing;
+
+$border-radius: 10px;
+$half-border-radius: $border-radius / 2;
+
+.card {
+  border-radius: $border-radius;
+}

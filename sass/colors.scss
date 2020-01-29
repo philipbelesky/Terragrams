@@ -1,34 +1,120 @@
+$color-1: rgb(155, 111, 52);
 .palette-1 {
-  background: rgb(155, 111, 52);
+  background: $color-1;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-1);
+  }
 }
+
+$color-2: rgb(236, 235, 232);
 .palette-2 {
-  background: rgb(236, 235, 232);
+  background: $color-2;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-2);
+  }
 }
+
+$color-3: rgb(47, 74, 19);
 .palette-3 {
-  background: rgb(47, 74, 19);
-  color: #fff;
+  background: $color-3;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-3);
+  }
 }
+
+$color-4: rgb(86, 99, 61);
 .palette-4 {
-  background: rgb(86, 99, 61);
-  color: #fff;
+  background: $color-4;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-4);
+  }
 }
+
+$color-5: rgb(146, 144, 136);
 .palette-5 {
-  background: rgb(146, 144, 136);
+  background: $color-5;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-5);
+  }
 }
+
+$color-6: rgb(153, 194, 74);
 .palette-6 {
-  background: rgb(153, 194, 74);
+  background: $color-6;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-6);
+  }
 }
+
+$color-7: rgb(84, 46, 9);
 .palette-7 {
-  background: rgb(84, 46, 9);
-  color: #fff;
+  background: $color-7;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-7);
+  }
 }
+
+$color-8: rgb(209, 147, 95);
 .palette-8 {
-  background: rgb(209, 147, 95);
+  background: $color-8;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-8);
+  }
 }
+
+$color-9: rgb(68, 70, 68);
 .palette-9 {
-  background: rgb(68, 70, 68);
-  color: #fff;
+  background: $color-9;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-9);
+  }
 }
+
+$color-10: rgb(172, 164, 172);
 .palette-10 {
-  background: rgb(172, 164, 172);
+  background: $color-10;
+
+  .title,
+  .subtitle,
+  h4,
+  a {
+    color: choose-contrast-color($color-10);
+  }
 }
+

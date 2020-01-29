@@ -1,6 +1,6 @@
 @import "./custom";
 
-// Site styles
+// Type
 body {
   font-size: 1em;
 }
@@ -16,9 +16,26 @@ h4 {
   font-weight: 700;
   letter-spacing: 0.1em;
   line-height: 1;
-  color: $brand;
+  margin-bottom: 0;
 }
 
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  color: $brand; // Need to override bulma
+}
+
+.title {
+  color: inherit;
+}
+
+.content a,
+.subtitle a {
+  border-bottom: 1px solid $link;
+}
+
+// Header
 .logo a {
   color: $brand;
 }
@@ -31,30 +48,28 @@ h4 {
   margin: 0.5em 0 1em 0;
 }
 
-.push-down {
-  margin-bottom: $spacing-rhythm;
-}
-
-.half-push-down {
-  margin-bottom: $spacing-rhythm * 0.5;
-}
-
-.push-up {
-  margin-top: $spacing-rhythm;
-}
-
 .subscribes img {
   max-width: 132px;
 }
 
+// Episodes
 audio {
   width: 100%; // Span full space
 }
 
 .chapters {
 
+  .card.is-parent {
+    padding: 0; // Flush background
+  }
+
+  .tag, img {
+    background-color: rgba(100%, 100%, 100%, 0.25);
+    border-radius: $half-border-radius;
+  }
+
   .is-ancestor {
-    justify-content: space-around; // Center align chapter boxes
+    justify-content: space-between; // Center align chapter boxes
 
     .is-parent {
       align-items: center;

@@ -8,20 +8,12 @@
 
   <div class="section">
     {%- set episodes = get_section(path="episodes/_index.md") -%}
-    {% for episode in episodes.pages | sort(attribute="date") | reverse | slice(end=5) %}
-      <a href="{{ episode.permalink }}" class="push-down is-block">
+    {% for page in episodes.pages | sort(attribute="date") | reverse | slice(end=5) %}
+      <a href="{{ page.permalink }}" class="push-down is-block">
         <article class="card">
           <div class="card-content content">
-            <h4 class="is-size-3 has-text-centered">{{ episode.title }}</h4>
-            <div class="level has-text-centered half-push-down">
-              <div class="level-item tag is-primary is-size-6">
-                First published {{ episode.extra.original_date|date(format="%d %B, %Y") }}
-              </div>
-              <div class="level-item tag is-primary is-size-6">
-                Republished {{ episode.date|date(format="%d %B, %Y") }}
-              </div>
-            </div>
-            <p>{{ episode.description }}</p>
+            {% include "partials/episode-header.html" %}
+            <p>{{ page.description }}</p>
           </div>
         </article>
       </a>
