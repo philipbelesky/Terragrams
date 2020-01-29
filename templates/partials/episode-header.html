@@ -1,0 +1,46 @@
+{# Different title tag for episode page vs archive listing #}
+{% if section %}
+  <h2 class="is-size-3 has-text-centered">{{ page.title }}</h2>
+{% else %}
+  <h1 class="is-size-3 has-text-centered half-push-down">{{ page.title }}</h1>
+{% endif %}
+
+{# Add pretty date suffixes #}
+{% set d = page.extra.original_date|date(format="%e") %}
+{% if d == "1" or d == "21" or d == "31" %}
+  {% set original_date_suffix = "st" %}
+{% elif d == "2" or d == "22" %}
+  {% set original_date_suffix = "nd" %}
+{% elif d == "3" or d == "23" %}
+  {% set original_date_suffix = "rd" %}
+{% else %}
+  {% set original_date_suffix = "th" %}
+{% endif %}
+{% set d = page.date|date(format="%e") %}
+{% if d == "1" or d == "21" or d == "31" %}
+  {% set date_suffix = "st" %}
+{% elif d == "2" or d == "22" %}
+  {% set date_suffix = "nd" %}
+{% elif d == "3" or d == "23" %}
+  {% set date_suffix = "rd" %}
+{% else %}
+  {% set date_suffix = "th" %}
+{% endif %}
+
+<div class="level has-text-centered half-push-down">
+  <div class="level-item"></div>
+  <div class="level-item"></div>
+  <h4 class="level-item tag is-size-6">
+    First published
+    {{ page.extra.original_date|date(format="%e") }}{{ original_date_suffix }}
+    {{ page.extra.original_date|date(format="%b, %Y") }}
+  </h4>
+  <div class="level-item"></div>
+  <h4 class="level-item tag is-size-6">
+    Republished
+    {{ page.date|date(format="%e") }}{{ date_suffix }}
+    {{ page.date|date(format="%b, %Y") }}
+  </h4>
+  <div class="level-item"></div>
+  <div class="level-item"></div>
+</div>
