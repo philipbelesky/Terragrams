@@ -8,22 +8,21 @@
         <language>{{ config.default_language }}</language>
         <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
         <lastBuildDate>{{ last_build_date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
-
         <image>
             <url>http://www.example.com/image3000x3000.png</url>
-            <title>Podcast Title Here</title>
-            <link>https://www.example.com</link>
+            <title>{{ config.title }}</title>
+            <link>{{ config.base_url | escape_xml | safe }}</link>
         </image>
         <language>en-us</language>
-        <copyright>Nic Raboy copyright 2016</copyright>
-        <itunes:author>Nic Raboy</itunes:author>
+        <copyright>{{ config.extra.author }} copyright 2016</copyright>
+        <itunes:author>{{ config.extra.author }}</itunes:author>
         <itunes:summary>
-            The full length description for your podcast
+            {{ config.description }}
         </itunes:summary>
         <itunes:subtitle>Short sentence about the podcast</itunes:subtitle>
         <itunes:owner>
-            <itunes:name>Nic Raboy</itunes:name>
-            <itunes:email>email@test.com</itunes:email>
+            <itunes:name>{{ config.extra.author }}</itunes:name>
+            <itunes:email>{{ config.extra.author_email }}</itunes:email>
         </itunes:owner>
         <itunes:explicit>No</itunes:explicit>
         <itunes:keywords>
@@ -32,12 +31,11 @@
         <itunes:image href="http://www.example.com/image3000x3000.png"/>
         <rawvoice:rating>TV-G</rawvoice:rating>
         <rawvoice:location>San Francisco, California</rawvoice:location>
-        <rawvoice:frequency>Monthly</rawvoice:frequency>
+        <rawvoice:frequency>Weekly</rawvoice:frequency>
         <itunes:category text="Technology"/>
         <pubDate>Fri, 01 Jan 2016 06:00:00 PDT</pubDate>
-
         {%- set episodes = get_section(path="episodes/_index.md") -%}
-        {% for episode in episodes.pages | sort(attribute="date") | reverse %}
+        {%- for episode in episodes.pages | sort(attribute="date") | reverse -%}
             <item>
                 <title>{{ episode.title }}</title>
                 <link>{{ episode.extra.file | escape_xml | safe }}</link>{# link to file #}
@@ -55,6 +53,6 @@
                 </itunes:keywords>
                 <itunes:explicit>no</itunes:explicit>
             </item>
-        {% endfor %}
+        {%- endfor -%}
     </channel>
 </rss>

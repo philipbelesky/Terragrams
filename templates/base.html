@@ -9,17 +9,16 @@
   <base href="{{ current_url|safe }}">
 
   <meta name="description" content="{{ config.description|safe }}">
-  <meta name="author" content="Philip Belesky">
-  <meta name="twitter:creator" content="@philipbelesky">
-  <meta name="apple-itunes-app" content="app-id=1113702712"><!-- TODO: add ID -->
+  <meta name="author" content="{{ config.extra.author }}">
+  <meta name="apple-itunes-app" content="app-id={{ config.extra.itunes_id }}">
 
-  <link rel="stylesheet" href="{{ config.base_url ~ '/style.css'}}" />
+  <link rel="stylesheet" href="{{ get_url(path='style.css') }}" />
   <link rel="icon" type="image/png" href="{{ get_url(path='/logo-32x32.png')|safe }}" sizes="32x32" />
   <link rel="icon" type="image/png" href="{{ get_url(path='/logo-16x16.png')|safe }}" sizes="16x16" />
 
   <link rel="canonical" href="{{ current_url|safe }}">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ config.base_url ~ "/rss.xml"}}">
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ config.base_url ~ "/sitemap.xml"}}">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='/rss.xml') }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ get_url(path='/sitemap.xml') }}">
 
 </head>
 
