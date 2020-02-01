@@ -4,6 +4,7 @@ description = ""
 draft = true
 date = 2020-01-25
 [extra]
+duration = "TODO"
 original_date = 2020-01-26
 file = "http://45.33.63.41/terragrams/original-mp3/TG03-Elias-Torres.mp3"
 +++
