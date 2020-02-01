@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ config.title }}</title>
-  <base href="{{ current_url|safe }}">
+  <base href="{{ config.base_url }}">
 
   <meta name="description" content="{{ config.description|safe }}">
   <meta name="author" content="{{ config.extra.author }}">
@@ -16,7 +16,7 @@
   <link rel="icon" type="image/png" href="{{ get_url(path='/logo-32x32.png')|safe }}" sizes="32x32" />
   <link rel="icon" type="image/png" href="{{ get_url(path='/logo-16x16.png')|safe }}" sizes="16x16" />
 
-  <link rel="canonical" href="{{ current_url|safe }}">
+  {% if current_url %}<link rel="canonical" href="{{ current_url|safe }}">{% endif %}
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='/rss.xml') }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ get_url(path='/sitemap.xml') }}">
 
