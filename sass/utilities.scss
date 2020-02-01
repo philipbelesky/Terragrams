@@ -13,6 +13,10 @@
   margin-top: $block-spacing;
 }
 
+.double-push-up {
+  margin-top: $block-spacing * 2;
+}
+
 .no-push-up {
   padding-top: 0; // Override section spacing (e.g. for header)
 }

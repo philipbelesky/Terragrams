@@ -22,5 +22,11 @@ generate_rss = true
 # Put all your custom variables here
 debug = false
 author = "Craig Verzone and Philip Belesky"
-author_email = "TODO
-itunes_id = ""
+author_email = "TODO"
+itunes_id = "TODO"
+summary = "Terragrams is a wide portal into landscape architecture and the professionals who shape it" # iTunes super brief description
+keywords = "landscape architecture,landscape,architecture,design,sustainability"
+itunes_category = "Arts"
+explicit = "no"
+location = "Vevey, Switzerland"
+frequency = "Weekly"

@@ -4,16 +4,18 @@
 
   {% include "partials/blurb.html" %}
 
-  <h3 class="is-size-4 has-text-centered">All Episodes</h3>
+  <h3 class="is-size-3 has-text-centered double-push-up">All Episodes</h3>
 
-  {%- set episodes = get_section(path="episodes/_index.md") -%}
-  {% for episode in episodes.pages | sort(attribute="date") | reverse %}
-    <article class="card">
-      <div class="card-content content">
-        <h4 class="is-size-4"><a href="{{ episode.permalink }}">{{ episode.title }}</a></h4>
-        <p>{{ episode.description }}</p>
-      </div>
-    </article>
-  {% endfor %}
+  <section class="section">
+    {%- set episodes = get_section(path="episodes/_index.md") -%}
+    {% for episode in episodes.pages | sort(attribute="date") | reverse %}
+      <article class="card">
+        <div class="card-content content">
+          <h4 class="is-size-4"><a href="{{ episode.permalink }}">{{ episode.title }}</a></h4>
+          <p>{{ episode.description }}</p>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
 
 {%- endblock content -%}

@@ -11,7 +11,7 @@
     "bundle": "npx terser ./node_modules/instant.page/instantpage.js ./static/main.js --compress --mangle --output 'static/main.min.js' --source-map 'filename'='static/main.min.js.map'",
     "serve": "zola serve --drafts -p 4003 --interface 0.0.0.0  --base-url 10.0.1.100",
     "preview": "zola serve -p 4003 --interface 0.0.0.0  --base-url 10.0.1.100",
-    "build": "zola --config production.toml build",
+    "build": "zola build",
     "publish": "npm run test && npm run build && s3_website push"
   },
   "author": "Philip Belesky",

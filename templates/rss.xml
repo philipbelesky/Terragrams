@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
     <channel>
         <title>{{ config.title }}</title>
         <link>{{ config.base_url | escape_xml | safe }}</link>
-        <description>{{ config.description }}</description>
-        <generator>Zola</generator>
-        <language>{{ config.default_language }}</language>
-        <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
         <lastBuildDate>{{ last_build_date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
-        <image>
-            <url>http://www.example.com/image3000x3000.png</url>
-            <title>{{ config.title }}</title>
-            <link>{{ config.base_url | escape_xml | safe }}</link>
-        </image>
-        <language>en-us</language>
-        <copyright>{{ config.extra.author }} copyright 2016</copyright>
+        <language>{{ config.default_language }}</language>
+        <generator>Zola</generator>
         <itunes:author>{{ config.extra.author }}</itunes:author>
-        <itunes:summary>
-            {{ config.description }}
-        </itunes:summary>
-        <itunes:subtitle>Short sentence about the podcast</itunes:subtitle>
+        <itunes:subtitle>{{ config.extra.summary }}</itunes:subtitle>
+        <itunes:explicit>{{ config.extra.explicit }}</itunes:explicit>
         <itunes:owner>
             <itunes:name>{{ config.extra.author }}</itunes:name>
             <itunes:email>{{ config.extra.author_email }}</itunes:email>
         </itunes:owner>
-        <itunes:explicit>No</itunes:explicit>
+        <itunes:category text="{{ config.extra.itunes_category }}"/>
+        <itunes:image href="{{ get_url(path='/episodes/Main Art.png') }}"/>
+        <description>{{ config.description }}</description>
+        <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
+        <image>
+            <url>{{ get_url(path='/episodes/Main Art.png')|safe }}</url>
+            <title>{{ config.title }}</title>
+            <link>{{ config.base_url | escape_xml | safe }}</link>
+        </image>
+        <copyright>{{ config.extra.author }} copyright 2016</copyright>
+        <itunes:summary>
+            {{ config.description }}
+        </itunes:summary>
         <itunes:keywords>
-            comma,separated,key,words
+            {{ config.extra.keywords }}
         </itunes:keywords>
-        <itunes:image href="http://www.example.com/image3000x3000.png"/>
         <rawvoice:rating>TV-G</rawvoice:rating>
-        <rawvoice:location>San Francisco, California</rawvoice:location>
-        <rawvoice:frequency>Weekly</rawvoice:frequency>
-        <itunes:category text="Technology"/>
+        <rawvoice:location>{{ config.extra.location }}</rawvoice:location>
+        <rawvoice:frequency>{{ config.extra.frequency }}</rawvoice:frequency>
         <pubDate>Fri, 01 Jan 2016 06:00:00 PDT</pubDate>
         {%- set episodes = get_section(path="episodes/_index.md") -%}
         {%- for episode in episodes.pages | sort(attribute="date") | reverse -%}
             <item>
                 <title>{{ episode.title }}</title>
-                <link>{{ episode.extra.file | escape_xml | safe }}</link>{# link to file #}
                 <pubDate>{{ episode.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
-                <description>{% if episode.summary %}{{ episode.summary }}{% else %}{{ episode.content }}{% endif %}</description>
-                <enclosure url="{{ episode.extra.file | escape_xml | safe }}" length="" type="audio/mpeg" />
+                <link>{{ episode.permalink | safe }}</link>{# link to episode webpage #}
                 <guid>{{ episode.permalink | escape_xml | safe }}</guid>
-                <itunes:duration>19:07</itunes:duration>
-                <itunes:summary>
-                    The full length episode 2 description
-                </itunes:summary>
-                <itunes:image href="http://www.example.com/image3000x3000.png"/>
-                <itunes:keywords>
-                    TODO
-                </itunes:keywords>
-                <itunes:explicit>no</itunes:explicit>
+                <description>
+                    {% if episode.summary %}{{ episode.summary|safe }}{% else %}{{ episode.content|safe }}{% endif %}
+                </description>{# should be html formatted #}
+                <itunes:summary>{% if episode.summary %}{{ episode.summary|safe }}{% else %}{{ episode.content|safe }}{% endif %}</itunes:summary>
+                <itunes:author>{{ config.extra.author }}</itunes:author>
+                <itunes:subtitle>TODO (need to concat the description)</itunes:subtitle>
+                <itunes:explicit>{{ config.extra.explicit }}</itunes:explicit>
+                <itunes:duration>{{ episode.extra.duration }}</itunes:duration>
+                <itunes:image href="{{ get_url(path='/episodes/Main Art.png')|safe }}"/>
+                <enclosure url="{{ episode.extra.file | escape_xml | safe }}" length="TODO" type="audio/mpeg" />
+                <media:content url="{{ episode.extra.file | escape_xml | safe }}" length="TODO" type="audio/mpeg" isDefault="true" medium="audio" />
             </item>
         {%- endfor -%}
     </channel>
