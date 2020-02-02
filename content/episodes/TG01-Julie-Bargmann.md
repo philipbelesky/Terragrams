@@ -4,6 +4,7 @@ description = "In the debut Terragram, Julie Bargmann, the founder of D.I.R.T.
 draft = false
 date = 2020-01-25
 [extra]
+byte_length = "TODO"
 duration = "TODO"
 original_date = 2006-01-31
 file = "http://45.33.63.41/terragrams/original-mp3/TG01-Julie-Bargmann.mp3"
