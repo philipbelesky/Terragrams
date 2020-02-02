@@ -6,27 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ config.title }}</title>
-  <base href="{{ config.base_url }}">
+  <base href="{{ config.base_url|safe }}">
 
   <meta name="description" content="{{ config.description|safe }}">
   <meta name="author" content="{{ config.extra.author }}">
   <meta name="apple-itunes-app" content="app-id={{ config.extra.itunes_id }}">
 
-  <link rel="stylesheet" href="{{ get_url(path='style.css') }}" />
+  <link rel="stylesheet" href="{{ get_url(path='style.css')|safe }}" />
   <link rel="icon" type="image/png" href="{{ get_url(path='/logo-32x32.png')|safe }}" sizes="32x32" />
   <link rel="icon" type="image/png" href="{{ get_url(path='/logo-16x16.png')|safe }}" sizes="16x16" />
-
   {% if current_url %}<link rel="canonical" href="{{ current_url|safe }}">{% endif %}
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='/rss.xml') }}">
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ get_url(path='/sitemap.xml') }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='/rss.xml')|safe }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ get_url(path='/sitemap.xml')|safe }}">
 
 </head>
 
 <body>
 
   <header class="section has-text-centered">
-    <a href="{{ config.base_url }}"><img class="logo-mark" src="{{ config.base_url ~ '/logo.png' }}" alt="The Terragrams logo"></a>
-    <h1 class="is-size-2 logo"><a href="{{ config.base_url }}">Terragrams</a></h1>
+    <a href="{{ config.base_url|safe }}"><img class="logo-mark" src="{{ config.base_url ~ '/logo.png' }}" alt="The Terragrams logo"></a>
+    <h1 class="is-size-2 logo"><a href="{{ config.base_url|safe }}">Terragrams</a></h1>
     <h4 class="is-size-6 tag tagline">delivering the landscape</h4>
     <div class="subscribes">
       <a href=""><img src="{{ config.base_url ~ '/button-apple.svg' }}" alt="Subscribe on Apple Podcasts"></a>
@@ -37,15 +36,13 @@
   </header>
 
   <main class="container">
-    {%- block content -%}{%- endblock content -%}
+    {% block content -%}{%- endblock content -%}
   </main>
 
-  {# <footer class="section has-text-centered">
-    What goes here?
-  </footer> #}
-  {# <br><br><br><br>DEBUG: {{ __tera_context }} #}
-
-  {% if not config.extra.debug -%}<script>
+  <footer class="section has-text-centered"></footer>
+  {# DEBUG: {{ __tera_context }} #}
+  <script src="{{ get_url(path='/main.min.js')|safe }}" async></script>
+  {% if config.base_url is not containing("10.0") -%}<script>
     (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
     h=encodeURIComponent,i=d.pushState,k=function(){return Math.random().toString(36)},
     l=function(){return g.cid||(g.cid=k()),g.cid},m=function(r){var s=[];for(var t in r)

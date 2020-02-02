@@ -5,14 +5,14 @@
   "repository": "https://github.com/philipbelesky/terragrams",
   "main": "index.js",
   "scripts": {
-    "test": "npm run build && htmlproofer --extension .html ./public",
+    "test": "htmlproofer --extension .html ./public",
     "lint": "stylelint 'sass/**/*.scss' --config 'sass/.stylelintrc'",
     "lint-fix": "stylelint 'sass/**/*.scss' --config 'sass/.stylelintrc' --fix",
     "bundle": "npx terser ./node_modules/instant.page/instantpage.js ./static/main.js --compress --mangle --output 'static/main.min.js' --source-map 'filename'='static/main.min.js.map'",
     "serve": "zola serve --drafts -p 4003 --interface 0.0.0.0  --base-url 10.0.1.100",
     "preview": "zola serve -p 4003 --interface 0.0.0.0  --base-url 10.0.1.100",
     "build": "zola build",
-    "publish": "npm run test && npm run build && s3_website push"
+    "publish": "npm run build && s3_website push"
   },
   "author": "Philip Belesky",
   "license": "ISC",
