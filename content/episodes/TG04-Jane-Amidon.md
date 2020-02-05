@@ -1,5 +1,5 @@
 +++
-title = "#4 Jane Amidon"
+title = "Dispatch 4: Jane Amidon"
 description = ""
 draft = true
 date = 2020-01-25

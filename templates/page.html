@@ -9,7 +9,7 @@
     <div class="card">
       <div class="card-content">
         {% include "partials/episode-header.html" %}
-        <audio controls src="{{ page.extra.file }}" id="episodeAudio">
+        <audio controls src="{{ config.extra.episode_host_path }}{{ page.extra.file }}" id="episodeAudio">
           Your browser does not support the <code>audio</code> element.
         </audio>
       </div>

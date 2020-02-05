@@ -1,5 +1,5 @@
 +++
-title = "#6 Michael Vergason"
+title = "Dispatch 6: Michael Vergason"
 description = ""
 draft = true
 date = 2020-01-25

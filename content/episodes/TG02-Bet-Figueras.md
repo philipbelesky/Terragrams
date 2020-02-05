@@ -1,5 +1,5 @@
 +++
-title = "#2 Bet Figueras"
+title = "Dispatch 2: Bet Figueras"
 description = ""
 draft = true
 date = 2020-01-25
@@ -7,7 +7,7 @@ date = 2020-01-25
 byte_length = "TODO"
 duration = "TODO"
 original_date = 2020-01-26
-file = "http://45.33.63.41/terragrams/original-mp3/TG02-Bet-Figueras.mp3"
+file = "TG02-Bet-Figueras.mp3"
 +++
 
 She is the principal of her own practice, Bet Figueras - Arquitecta paisajista, in Barcelona, Spain as well as a Professor of Landscape Architecture in the Universitat Politècnica de Catalunya. In this episode she speaks about Barcelona, her role in public space-making in the region and her growth as a designer and her collaboration for the project of Barcelona’s Botanical Gardens. February 14, 2006
