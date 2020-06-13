@@ -10,7 +10,7 @@ original_date = 2006-01-31
 file = "TG01-Julie-Bargmann.mp3"
 +++
 
-*Editor’s note: the audio quality for this episode is not great, even after re-editing the tracks. However, this is not an issue in future episodes.*
+*Editor’s note: the audio quality for this episode is not great, even after re-editing the tracks. This is not an issue in future episodes!*
 
 In the debut Terragram, Julie Bargmann, the founder of [D.I.R.T. Studio](https://dirtstudio.com), Charlottesvile, Virginia, Associate Professor of Landscape Architecture and previous Director of Landscape Architecture at the [University of Virginia School of Architecture](https://www.arch.virginia.edu) talks candidly about the evolution of her practice, her role as an artist as well as a teacher and the importance of reclaimed landscapes.
 
