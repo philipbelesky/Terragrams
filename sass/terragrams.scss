@@ -94,3 +94,21 @@ audio {
   cursor: pointer;
   background-opacity: 1;
 }
+
+// Transcripts hanging indents
+.transcript-content {
+
+  p {
+    text-indent: -6.5rem;
+    margin-left: 6.25rem;
+  }
+
+  code {
+    width: 6rem;
+    text-indent: 0rem;
+    margin-right: 0.25rem;
+    display: inline-block;
+    color: $link;
+    cursor: pointer;
+  }
+}
