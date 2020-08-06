@@ -1,0 +1,13 @@
+{% set data_path = "content/transcripts/" ~ page.slug ~ ".txt" %}
+{% set episode_data = load_data(path=data_path) %}
+
+<div class="section">
+
+  <div class="card">
+    <div class="card-content">
+      <h2 class="has-text-centered half-push-down">Transcript</h2>
+      {{ episode_data | markdown | safe }}
+    </div>
+  </div>
+
+</div>
