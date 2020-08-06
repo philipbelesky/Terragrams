@@ -20,7 +20,7 @@
     {% endfor %}
   </div>
 
-  {# {% if episodes.pages  | length > 5 %} #}
+  {% if episodes.pages  | length > 5 %}
     <div class="section">
       <a href="{{ config.base_url ~ '/episodes' }}">
         <article class="card">
@@ -30,6 +30,6 @@
         </article>
       </a>
     </div>
-  {# {% endif %} #}
+  {% endif %}
 
 {%- endblock content -%}
