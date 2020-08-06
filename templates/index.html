@@ -9,7 +9,7 @@
   <div class="section">
     {%- set episodes = get_section(path="episodes/_index.md") -%}
     {% for page in episodes.pages | sort(attribute="date") | reverse | slice(end=5) %}
-      <a href="{{ page.permalink }}" class="push-down is-block">
+      <a href="{{ page.permalink }}" class="is-block">
         <article class="card">
           <div class="card-content content">
             {% include "partials/episode-header.html" %}
@@ -20,10 +20,16 @@
     {% endfor %}
   </div>
 
-  {% if episodes | length > 5 %}
-    <h3 class="is-size-4 has-text-centered push-down">
-      <a href="{{ config.base_url ~ '/episodes' }}">View All Episodes</a>
-    </h3>
-  {% endif %}
+  {# {% if episodes.pages  | length > 5 %} #}
+    <div class="section">
+      <a href="{{ config.base_url ~ '/episodes' }}">
+        <article class="card">
+          <div class="card-content has-text-centered">
+            <h2 class="is-size-3">View All Episodes</a></h2>
+         </div>
+        </article>
+      </a>
+    </div>
+  {# {% endif %} #}
 
 {%- endblock content -%}
