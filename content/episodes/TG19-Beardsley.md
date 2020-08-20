@@ -1,12 +1,12 @@
 +++
-title = "Dispatch x: "
+title = "Dispatch 19: John Beardsley"
 description = ""
 draft = true
 date = 2020-01-25
 [extra]
 byte_length = "TODO"
 duration = "TODO"
-original_date = 2020-01-26
+original_date = 2009-06-30
 file = "http://google.com"
 +++
 
