@@ -27,9 +27,13 @@
       </div>
     </article>
 
-    {% include "partials/chapters.html" %}
+    {% if page.extra.chapters %}
+      {% include "partials/chapters.html" %}
+    {% endif %}
 
-    {% include "partials/transcript.html" %}
+    {% if page.extra.transcript %}
+      {% include "partials/transcript.html" %}
+    {% endif %}
 
   </div>
 
