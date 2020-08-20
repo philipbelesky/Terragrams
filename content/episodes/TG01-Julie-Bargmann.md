@@ -5,7 +5,7 @@ draft = false
 date = 2020-08-20
 [extra]
 chapters = true
-transcript = true
+transcript = false
 byte_length = "TODO"
 duration = "TODO"
 original_date = 2006-01-31
