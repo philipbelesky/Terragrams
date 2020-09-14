@@ -21,6 +21,10 @@
   padding-top: 0; // Override section spacing (e.g. for header)
 }
 
+.no-push-down {
+  margin-bottom: 0 !important; // Override section spacing (e.g. for header)
+}
+
 // Thanks to https://medium.com/dev-channel/using-sass-to-automatically-pick-text-colors-4ba7645d2796
 @function luminance($color) {
   $red: nth($linear-channel-values, red($color) + 1);

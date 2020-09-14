@@ -4,13 +4,15 @@
 
   {% include "partials/blurb.html" %}
 
-  <h3 class="is-size-3 double-push-up">All Episodes</h3>
+  <div class="section no-push-up">
 
-  <section class="section">
+    <h2 class="is-size-4 double-push-up">All Episodes</h2>
+
     {%- set episodes = get_section(path="episodes/_index.md") -%}
     {% for page in episodes.pages | sort(attribute="date") | reverse %}
       {% include "partials/episode-item.html" %}
     {% endfor %}
-  </section>
+
+  </div>
 
 {%- endblock content -%}

@@ -22,6 +22,14 @@ h4 {
 
 .content .force-link {
   color: $link; // For when we want to force a link color in a wrapped block
+
+  &:hover {
+  }
+}
+
+a:hover,
+a:hover .force-link {
+  color: $link-hover;
 }
 
 .content h1,
@@ -91,9 +99,17 @@ audio {
   }
 }
 
+.click-jump {
+  opacity: 0.85;
+}
+
 .click-jump:hover {
   cursor: pointer;
-  background-opacity: 1;
+  opacity: 1;
+}
+
+.click-jump a:hover {
+  color: #000;
 }
 
 // Transcripts hanging indents
