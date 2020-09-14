@@ -34,4 +34,4 @@ explicit = "no"
 location = "Vevey, Switzerland"
 frequency = "Weekly"
 show_art_path = "/episodes/Main Art.png" # Show thumbnail/art
-episode_host_path = "https://45.79.239.50/terragrams/original-mp3/"
+episode_host_path = "https://files.philipbelesky.com/terragrams/"
