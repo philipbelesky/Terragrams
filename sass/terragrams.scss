@@ -99,6 +99,25 @@ audio {
   }
 }
 
+.chapters-preview {
+  padding-top: $block-spacing * 0.5;
+
+  > .is-parent {
+    display: flex; // Wrap horizontally on mobile
+  }
+
+  .preview-container {
+    padding: 0 !important;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .click-jump {
   opacity: 0.85;
 }

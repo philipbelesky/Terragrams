@@ -1,8 +1,44 @@
+{% set data_path = "content/chapters/" ~ page.slug ~ ".toml" %}
+{% set episode_data = load_data(path=data_path) %}
+
 <a href="{{ page.permalink }}" class="is-block double-push-up">
   <article class="card">
     <div class="card-content content">
+
       {% include "partials/episode-header.html" %}
-      <p>{{ page.description }}</p>
+
+      <div class="tile chapters-preview is-ancestor">
+
+        <div class="tile has-text-centered is-6 is-parent">
+          <article class="card tile is-child palette-{{ get_random(start=1, end=10) }}">
+            <div class="card-content">
+              <p class="subtitle">{{ page.description }}</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="tile has-text-centered is-6 is-parent preview-container">
+          {% if episode_data %}
+            {% for chapter in episode_data.chapters | slice(end=3) %}
+              {% if chapter.image %}
+                {%- set img_path = "../static" ~ page.path ~ chapter.image -%}
+                {%- set img = resize_image(path=img_path, width=125, height=175, quality=75, op='fit') -%}
+                {%- set rand = get_random(start=1, end=10) -%}{# random is not very random? #}
+                <div class="tile is-parent is-4">
+                  <article class="card is-child palette-{{ rand }}">
+                    <div class="card-content">
+                      <img class="" src="{{ img|safe }}">
+                      <p class="level-item is-size-6 subtitle">Ch. {{ loop.index }}</p>
+                    </div>
+                  </article>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+
+      </div>
+
     </div>
   </article>
 </a>
