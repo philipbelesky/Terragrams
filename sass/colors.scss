@@ -1,120 +1,28 @@
-$color-1: rgb(155, 111, 52);
-$color-2: rgb(160, 169, 127);
-$color-3: rgb(47, 74, 19);
-$color-4: rgb(86, 99, 61);
-$color-5: rgb(152, 129, 119);
-$color-6: rgb(153, 194, 74);
-$color-7: rgb(84, 46, 9);
-$color-8: rgb(209, 147, 95);
-$color-9: rgb(68, 70, 68);
-$color-10: rgb(172, 164, 172);
+$colors:
+  "1" rgb(155, 111, 52),
+  "2" rgb(160, 169, 127),
+  "3" rgb(47, 74, 19),
+  "4" rgb(86, 99, 61),
+  "5" rgb(152, 129, 119),
+  "6" rgb(153, 194, 74),
+  "7" rgb(84, 46, 9),
+  "8" rgb(209, 147, 95),
+  "9" rgb(68, 70, 68),
+  "10" rgb(255, 225, 172),
+  "11" rgb(94, 126, 0),
+  "12" rgb(35, 144, 144),
+  "13" rgb(181, 240, 121);
 
-.palette-1 {
-  background: $color-1;
+@each $name, $color in $colors {
 
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-1);
-  }
-}
+  .palette-#{$name} {
+    background: $color;
 
-.palette-2 {
-  background: $color-2;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-2);
-  }
-}
-
-.palette-3 {
-  background: $color-3;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-3);
-  }
-}
-
-.palette-4 {
-  background: $color-4;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-4);
-  }
-}
-
-.palette-5 {
-  background: $color-5;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-5);
-  }
-}
-
-.palette-6 {
-  background: $color-6;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-6);
-  }
-}
-
-.palette-7 {
-  background: $color-7;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-7);
-  }
-}
-
-.palette-8 {
-  background: $color-8;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-8);
-  }
-}
-
-.palette-9 {
-  background: $color-9;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-9);
-  }
-}
-
-.palette-10 {
-  background: $color-10;
-
-  .title,
-  .subtitle,
-  h4,
-  a {
-    color: choose-contrast-color($color-10);
+    .title,
+    .subtitle,
+    h4,
+    a {
+      color: choose-contrast-color($color);
+    }
   }
 }

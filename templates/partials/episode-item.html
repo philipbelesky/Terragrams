@@ -23,7 +23,7 @@
               {% if chapter.image %}
                 {%- set img_path = "../static" ~ page.path ~ chapter.image -%}
                 {%- set img = resize_image(path=img_path, width=125, height=175, quality=75, op='fit') -%}
-                {%- set rand = get_random(start=1, end=10) -%}{# random is not very random? #}
+                {%- set rand = get_random(start=1, end=config.extra.color_options ) -%}{# random is not very random? #}
                 <div class="tile is-parent is-4">
                   <article class="card is-child palette-{{ rand }}">
                     <div class="card-content">
