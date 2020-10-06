@@ -1,21 +1,21 @@
 [[chapters]]
-image = "1.jpg"
 time = "0:37"
+image = "1.jpg"
 title = "Introducing Julie and D.I.R.T. Studio"
 credit = "D.I.R.T. Studio"
 size = 3
 
 [[chapters]]
+time = "3:00"
 image = "2.jpeg"
-time = "7:03"
 title = "Mined Sites and Contemporary Art"
 credit = "Dallas Museum of Art, Robert Smithson, Mirror Displacement on Compost Heap, 1969"
 link = "https://collections.dma.org/artwork/5324897"
 size = 4
 
 [[chapters]]
-image = "3.jpg"
 time = "7:03"
+image = "3.jpg"
 title = "Environmental Art & Ancient Landscapes"
 credit = "D H Lawrence, Etruscan Places, Entrance to the Chamber Tombs"
 link = "http://gutenberg.net.au/ebooks09/0900381h.html"
@@ -28,16 +28,65 @@ size = 2
 
 [[chapters]]
 image = "5.jpg"
-time = "20:13"
+time = "16:56"
 title = "Philadelphia Navy Yard Project"
 credit = "Landezine, Philadelphia Navy Yard"
 link = "http://landezine.com/index.php/2014/10/urban-outfitters-headquarters-at-the-philadelphia-navy-yard-by-d-i-r-t-studio/"
 size = 5
 
 [[chapters]]
-time = "24:05"
+time = "20:13"
 image = "6.jpg"
 title = "Reuse and Barnie Rubble"
 credit = "Landezine, Philadelphia Navy Yard"
 link = "http://landezine.com/index.php/2014/10/urban-outfitters-headquarters-at-the-philadelphia-navy-yard-by-d-i-r-t-studio/"
 size = 5
+
+[[chapters]]
+time = "20:45"
+title = "When is a landscape reclaimed?"
+size = 3
+
+[[chapters]]
+time = "28:37"
+title = "Remediation and the Pastoral"
+image = "acidmine.jpg"
+credit = "Julie Bargmann, via The Nature of Cities"
+link = "https://www.thenatureofcities.com/page/12/?cat=0"
+size = 5
+
+[[chapters]]
+time = "31:25"
+title = "Superfund Initiatives"
+link = "https://www.landscapeperformance.org/case-study-briefs/palmisano-park#/overview"
+credit = "Stearns Quarry Park image by Landscape Performance"
+image = "pond.jpg"
+size = 5
+
+[[chapters]]
+time = "36:30"
+title = "Teaching-Practice Interrelationships"
+size = 2
+
+[[chapters]]
+time = "42:45"
+title = "Advice to Graduates & Design Discourses"
+credit = "Time Magazine"
+link = "https://web.archive.org/web/20101122071023/https://time.com/time/magazine/article/0,9171,997498,00.html"
+image = "time.jpg"
+size = 3
+
+[[chapters]]
+time = "49:25"
+title = "Toxic Beauty"
+credit = "Jon Turner Design"
+image = "book.png"
+size = 3
+
+[[chapters]]
+time = "53:30 "
+title = "Bests, Worsts, and the role of the LA"
+credit = "Michael Van Vakenburgh Associates Inc"
+link = "https://www.mvvainc.com/project.php?id=77&c=competitions"
+size = 5
+image = "entry.png"
