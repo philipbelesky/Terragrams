@@ -1,6 +1,7 @@
 {% set data_path = "content/chapters/" ~ page.slug ~ ".toml" %}
 {% set episode_data = load_data(path=data_path) %}
 {% set tile_size_tally = 0 %}
+{% set last_rand = 0 %}
 
 <section class="chapters">
 
@@ -20,13 +21,16 @@
       {% set tile_size = 4 %}
     {% endif %}
     {% set_global tile_size_tally = tile_size_tally + tile_size %}
-    {% if tile_size_tally > 12 %}
+    {% if tile_size_tally >= 12 %}
       </div><div class="tile is-ancestor">
       {% set_global tile_size_tally = 0 %}
     {% endif %}
 
     <div class="tile has-text-centered is-parent is-{{ tile_size }}">
       {%- set rand = get_random(start=1, end=config.extra.color_options ) -%}
+      {% if rand == last_rand %}
+        {%- set rand = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
+      {% endif %}
       <article class="card tile is-child palette-{{ rand }} click-jump">
         <div class="card-content">
           <h3 class="title is-size-5" onclick="chapterJump('{{ chapter.time }}');">{{ chapter.title }}</h3>
@@ -55,6 +59,7 @@
       </article>
     </div>
 
+    {%- set last_rand = rand -%}
     {% if loop.last %}</div>{% endif %}
 
   {% endfor %}
