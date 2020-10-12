@@ -3,6 +3,7 @@ time = "0:37"
 image = "1.jpg"
 title = "Introducing Julie and D.I.R.T. Studio"
 credit = "D.I.R.T. Studio"
+link = "https://dirtstudio.com/"
 size = 3
 
 [[chapters]]
@@ -43,14 +44,14 @@ link = "http://landezine.com/index.php/2014/10/urban-outfitters-headquarters-at-
 size = 5
 
 [[chapters]]
-time = "20:45"
+time = "24:05"
 title = "When is a landscape reclaimed?"
-size = 3
+size = 2
 
 [[chapters]]
 time = "28:37"
 title = "Remediation and the Pastoral"
-image = "acidmine.jpg"
+image = "8.jpg"
 credit = "Julie Bargmann, via The Nature of Cities"
 link = "https://www.thenatureofcities.com/page/12/?cat=0"
 size = 5
@@ -60,7 +61,7 @@ time = "31:25"
 title = "Superfund Initiatives"
 link = "https://www.landscapeperformance.org/case-study-briefs/palmisano-park#/overview"
 credit = "Stearns Quarry Park image by Landscape Performance"
-image = "pond.jpg"
+image = "9.jpg"
 size = 5
 
 [[chapters]]
@@ -73,20 +74,20 @@ time = "42:45"
 title = "Advice to Graduates & Design Discourses"
 credit = "Time Magazine"
 link = "https://web.archive.org/web/20101122071023/https://time.com/time/magazine/article/0,9171,997498,00.html"
-image = "time.jpg"
+image = "11.jpg"
 size = 3
 
 [[chapters]]
 time = "49:25"
 title = "Toxic Beauty"
 credit = "Jon Turner Design"
-image = "book.png"
+image = "12.png"
 size = 3
 
 [[chapters]]
-time = "53:30 "
+time = "53:30"
 title = "Bests, Worsts, and the role of the LA"
 credit = "Michael Van Vakenburgh Associates Inc"
 link = "https://www.mvvainc.com/project.php?id=77&c=competitions"
-size = 5
-image = "entry.png"
+size = 4
+image = "13.png"

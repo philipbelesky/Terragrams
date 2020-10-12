@@ -31,6 +31,9 @@
       {% if rand == last_rand %}
         {%- set rand = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
       {% endif %}
+      {% if rand == last_rand %}
+        {%- set rand = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
+      {% endif %}
       <article class="card tile is-child palette-{{ rand }} click-jump">
         <div class="card-content">
           <h3 class="title is-size-5" onclick="chapterJump('{{ chapter.time }}');">{{ chapter.title }}</h3>
