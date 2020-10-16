@@ -19,7 +19,7 @@
   "dependencies": {
     "bulma": "^0.9.1",
     "instant.page": "^5.1.0",
-    "terser": "^4.8.0"
+    "terser": "^5.3.5"
   },
   "devDependencies": {
     "stylelint": "^13.7.2",
