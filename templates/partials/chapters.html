@@ -9,7 +9,7 @@
 
     {# Set image from static directory #}
     {% if chapter.image %}
-      {%- set img_path = "../static/" ~ page.path ~ chapter.image -%}
+      {%- set img_path = "../static" ~ page.path ~ chapter.image -%}
       {%- set img = resize_image(path=img_path, width=400, quality=75, op='fit_width') -%}
     {% endif %}
 

@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://terragrams.com.s3-website-us-east-1.amazonaws.com"
+base_url = "https://terragrams.com"
 
 title = "Terragrams"
 # Below is used as the podcast show description — max 4000 characters
