@@ -17,12 +17,12 @@
   "author": "Philip Belesky",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.9.0",
+    "bulma": "^0.9.1",
     "instant.page": "^5.1.0",
     "terser": "^4.8.0"
   },
   "devDependencies": {
-    "stylelint": "^13.6.1",
+    "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0"
   }
 }
