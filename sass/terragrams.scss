@@ -94,6 +94,18 @@ audio {
   }
 }
 
+body.header-not-at-top .player {
+  position: fixed;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+
+  .level {
+    display: none; // On mobile these take up too much screen space when fixed
+  }
+}
+
 .chapters-preview {
   padding-top: $block-spacing * 0.5;
 

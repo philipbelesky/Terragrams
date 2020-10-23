@@ -11,7 +11,7 @@ function chapterJump(timeCode) {
     seconds = (parseInt(times[0]) * 60) + parseInt(times[1]);
   }
   element.currentTime = seconds;
-  console.debug(`Jumping to ${seconds}`);
+  // console.debug(`Jumping to ${seconds}`);
 }
 
 // Enhance the timestamps in transcripts to become audio links
@@ -24,4 +24,18 @@ if (content !== null) {
       timeStamp.onclick =  function() { chapterJump(escapedTimeCode) };
     })
   }
+}
+
+// Fix the header when scrolling so it can be navigated with chapter buttons
+if ("IntersectionObserver" in window && "IntersectionObserverEntry" in window &&
+    "intersectionRatio" in window.IntersectionObserverEntry.prototype &&
+    document.getElementById("pixel-anchor-for-fixed-scroll") !== null) {
+  let observer = new IntersectionObserver(entries => {
+    if (entries[0].boundingClientRect.y < 0) {
+      document.body.classList.add("header-not-at-top");
+    } else {
+      document.body.classList.remove("header-not-at-top");
+    }
+  });
+  observer.observe(document.querySelector("#pixel-anchor-for-fixed-scroll"));
 }
