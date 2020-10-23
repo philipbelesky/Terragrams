@@ -2,12 +2,12 @@
 title = "Dispatch 1: Julie Bargmann"
 description = "In the debut Terragram, Julie Bargmann, the founder of D.I.R.T. Studio, Charlottesvile, Virginia, Associate Professor of Landscape Architecture and previous Director of Landscape Architecture at the University of Virginia School of Architecture talks candidly about the evolution of her practice, her role as an artist as well as a teacher and the importance of reclaimed landscapes."
 draft = false
-date = 2020-08-20
+date = 2020-10-23
 [extra]
 chapters = true
 transcript = false
-byte_length = "TODO"
-duration = "TODO"
+byte_length = "32647996"
+duration = "3764"
 original_date = 2006-01-31
 file = "TG01-Julie-Bargmann.mp3"
 +++
