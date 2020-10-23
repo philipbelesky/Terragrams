@@ -10,7 +10,7 @@
         <language>{{ config.default_language }}</language>
         <generator>Zola</generator>
         <itunes:author>{{ config.extra.author }}</itunes:author>
-        <itunes:subtitle>{{ config.extra.summary }}</itunes:subtitle>
+        <itunes:subtitle>{{ config.extra.summary | truncate(length=4000) }}</itunes:subtitle>
         <itunes:explicit>{{ config.extra.explicit }}</itunes:explicit>
         <itunes:owner>
             <itunes:name>{{ config.extra.author }}</itunes:name>
@@ -32,7 +32,7 @@
         </image>
         <copyright>{{ config.extra.author }} Copyright 2016</copyright>
         <itunes:summary>
-            {{ config.description }}
+            {{ config.description | truncate(length=4000)}}
         </itunes:summary>
         <itunes:keywords>
             {{ config.extra.keywords }}
@@ -53,7 +53,7 @@
                 </description>
                 <itunes:summary>{{ episode.description|striptags }}</itunes:summary>
                 <itunes:author>{{ config.extra.author|striptags }}</itunes:author>
-                <itunes:subtitle>TODO (need to concat the description)</itunes:subtitle>
+                <itunes:subtitle>{{ episode.description | truncate(length=200) }}...</itunes:subtitle>
                 <itunes:explicit>{{ config.extra.explicit }}</itunes:explicit>
                 <itunes:duration>{{ episode.extra.duration }}</itunes:duration>
                 <itunes:image href="{{ get_url(path='/episodes/Main Art.png')|safe }}"/>

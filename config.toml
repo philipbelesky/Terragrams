@@ -24,9 +24,9 @@ feed_filename = 'rss.xml'
 # Put all your custom variables here
 debug = false
 author = "Craig Verzone"
-author_email = "TODO"
-itunes_id = "TODO"
-summary = "Terragrams is a wide portal into landscape architecture and the professionals who shape it" # iTunes super brief description
+author_email = "terragrams@vwa.ch"
+itunes_id = "130516539"
+summary = "Terragrams is a wide portal into landscape architecture and the professionals who shape it." # iTunes super brief description
 keywords = "landscape architecture,landscape,architecture,design,sustainability"
 itunes_category = "Arts"
 itunes_subcategory = "Design"
