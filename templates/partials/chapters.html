@@ -34,23 +34,29 @@
       {% if rand == last_rand %}
         {%- set rand = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
       {% endif %}
-      <article class="card tile is-child palette-{{ rand }} click-jump">
+      <article class="card tile is-child palette-{{ rand }}">
         <div class="card-content">
-          <h3 class="title is-size-5" onclick="chapterJump('{{ chapter.time }}');">{{ chapter.title }}</h3>
-          <div class="level">
-            <h4 class="level-item tag is-size-6" onclick="chapterJump('{{ chapter.time }}');">Ch. {{ loop.index }}</h4>
-            {% if tile_size > 3 %}
-            <div class="level-item"></div>
-            {% else %}
-            {# Need to break level into rows if too small #}
-          </div>
-          <div class="level">
+          <h3 class="title is-size-5" onclick="chapterJump('{{ chapter.time }}');">
+            {{ chapter.title }}
+          </h3>
+          <div class="chapter-jump">
+            <div class="level">
+              <h4 class="level-item tag is-size-6" onclick="chapterJump('{{ chapter.time }}');">
+                Ch. {{ loop.index }}
+              </h4>
+              {% if tile_size > 3 %}
+              <div class="level-item"></div>
+              {% else %}
+              {# Need to break level into rows if too small #}
+            </div>
+            <div class="level chapter-jump">
+              {% endif %}
+              <h4 class="level-item tag is-size-6" onclick="chapterJump('{{ chapter.time }}');">▶{{ chapter.time }}</h4>
+            </div>
+            {% if img %}
+              <a href="{{ img_path }}" target="_blank"><img class="half-push-down" src="{{ img|safe }}"></a>
             {% endif %}
-            <h4 class="level-item tag is-size-6" onclick="chapterJump('{{ chapter.time }}');">▶{{ chapter.time }}</h4>
           </div>
-          {% if img %}
-            <a href="{{ img_path }}" target="_blank"><img class="half-push-down" src="{{ img|safe }}"></a>
-          {% endif %}
           {% if chapter.credit %}
             <p class="subtitle">
               {% if chapter.link %}<a href="{{ chapter.link }}" target="_blank">{% endif %}

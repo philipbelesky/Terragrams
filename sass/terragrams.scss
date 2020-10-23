@@ -22,13 +22,9 @@ h4 {
 
 .content .force-link {
   color: $link; // For when we want to force a link color in a wrapped block
-
-  &:hover {
-  }
 }
 
-a:hover,
-a:hover .force-link {
+a:hover {
   color: $link-hover;
 }
 
@@ -125,17 +121,26 @@ body.header-not-at-top .player {
   }
 }
 
-.click-jump {
-  opacity: 0.85;
-}
-
-.click-jump:hover {
+.chapters .chapter-jump:hover {
   cursor: pointer;
-  opacity: 1;
+
+  h4 {
+    transition: .25s ease-in-out;
+  }
+  h4 {
+    background-color: #fff;
+    color: $link;
+  }
 }
 
-.click-jump a:hover {
-  color: #000;
+.chapters {
+
+  a {
+    transition: color .25s ease-in-out;
+  }
+  a:hover {
+    color: #fff;
+  }
 }
 
 // Transcripts hanging indents
