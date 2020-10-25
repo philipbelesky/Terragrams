@@ -40,7 +40,7 @@
             {{ chapter.title }}
           </h3>
           <div class="chapter-jump">
-            <div class="level">
+            <div class="level is-mobile">
               <h4 class="level-item tag is-size-6" onclick="chapterJump('{{ chapter.time }}');">
                 Ch. {{ loop.index }}
               </h4>
@@ -49,7 +49,7 @@
               {% else %}
               {# Need to break level into rows if too small #}
             </div>
-            <div class="level chapter-jump">
+            <div class="level is-mobile chapter-jump">
               {% endif %}
               <h4 class="level-item tag is-size-6" onclick="chapterJump('{{ chapter.time }}');">▶{{ chapter.time }}</h4>
             </div>
