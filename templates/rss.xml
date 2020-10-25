@@ -21,10 +21,7 @@
         </itunes:category>
         <itunes:image href="{{ get_url(path=config.extra.show_art_path) | safe }}" />
         <itunes:type>{{ config.extra.itunes_type }}</itunes:type>
-        <googleplay:author>{{ config.extra.author }}</googleplay:author>
-        <googleplay:image href="{{ get_url(path=config.extra.show_art_path) | safe }}" />
-        <googleplay:category text="{{ config.extra.itunes_category }}"/>
-        <description>{{ config.description }}</description>
+        <description>{{ config.description | truncate(length=1000) }}</description>
         <image>
             <url>{{ get_url(path=config.extra.show_art_path)|safe }}</url>
             <title>{{ config.title }}</title>
