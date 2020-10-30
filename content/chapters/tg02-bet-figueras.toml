@@ -1,13 +1,132 @@
 [[chapters]]
 time = "0:37"
-title = "TODO"
-image = "todo.jpg"
+title = "Introducing Bet and Barcelona"
+image = "bet.jpg"
+size = 3
 
 [[chapters]]
-time = "3:00"
-title = "TODO"
+time = "5:32"
+title = "Berkeley and protest"
+size = 2
 
 [[chapters]]
-time = "7:03"
-title = "TODO"
-image = "todo.jpg"
+time = "9:06"
+title = "Edinburgh, the gestalt, and form"
+size = 2
+
+[[chapters]]
+time = "13:14"
+title = "Working at MBM and Barcelona's Planning"
+image = "xuklis.png"
+credit = "Image of Casa dels Xuklis, a later collaboration between MBM Arquitectes and Bet."
+link = "https://lacasadelsxuklis.org"
+size = 4
+
+[[chapters]]
+time = "18:00"
+title = "Models of Public Space Design"
+size = 2
+
+[[chapters]]
+time = "20:40"
+title = "Independent Practice & The Emergence of LA in Spain"
+size = 2
+
+[[chapters]]
+time = "26:24"
+title = "Current Projects"
+image = "mandarin.jpg"
+credit = "Image of the garden at the Mandarin Oriental Barcelona"
+link = "https://www.booking.com/hotel/es/mandarin-oriental-barcelona.html?aid=317234"
+size = 4
+
+[[chapters]]
+time = "29:58"
+title = "Collaborations and the Barcelona Botanic Gardens"
+image = "bbg.jpeg"
+credit = "Image from Ferrater, Carlos, and Borja Ferrater. “Synchronizing Geometry”. Actar, 2016."
+link = "https://groundhog.la/projects/botanical-gardens-of-barcelona/"
+size = 4
+
+[[chapters]]
+time = "31:45"
+title = "Ecology vs Taxonomy in the Gardens"
+image = "zones.jpeg"
+credit = "Image from Ferrater, Carlos, and Borja Ferrater. “Synchronizing Geometry”. Actar, 2016."
+link = "https://groundhog.la/projects/botanical-gardens-of-barcelona/"
+size = 3
+
+[[chapters]]
+time = "33:40"
+title = "Geometry in the Gardens"
+image = "geometry.jpeg"
+credit = "Image from Ferrater, Carlos, and Borja Ferrater. “Synchronizing Geometry”. Actar, 2016."
+link = "https://groundhog.la/projects/botanical-gardens-of-barcelona/"
+size = 4
+
+[[chapters]]
+time = "36:00"
+title = "Computers and the Gardens"
+image = "computers.jpg"
+credit = "Image from Josep Lluis Canosa, Carles Ferrater, Bet Figueras. Quaderns. 194 1992, 99 via RNDRD."
+link = "https://rndrd.com/n/1810"
+size = 5
+
+[[chapters]]
+time = "36:45"
+title = "Design Process, Innovation, and Invisibility"
+size = 3
+
+# image of
+
+[[chapters]]
+time = "43:25"
+title = "Important Influences"
+size = 5
+credit = "Roberto Burle-Marx's Copacabana Promenade via Landscape Theory"
+image = "marx.jpg"
+link = "https://landscapetheory1.wordpress.com/2018/01/01/6425/"
+
+# image from Burle Marx and Jeffrey Jelicoe
+# or martha schwarts working with peter walker
+
+[[chapters]]
+time = "45:22"
+title = "Getting Involved in Teaching"
+size = 2
+
+[[chapters]]
+time = "50:52"
+title = "Landscape Architecture as a Program and a Discipline"
+size = 3
+
+[[chapters]]
+time = "57:40"
+title = "The Role of the LA in Teams"
+size = 2
+
+[[chapters]]
+time = "1:00:10"
+title = "Key Future Projects for Barcelona"
+size = 3
+
+[[chapters]]
+time = "1:05:24"
+title = "The Fòrum's Revitalisation"
+image = "theforum.png"
+credit = "The Forum area, image from Google Earth"
+size = 7
+
+[[chapters]]
+time = "1:13:38"
+title = "Key Fòrum Projects"
+image = "esplanade.jpg"
+credit = "Photograph from the Fòrum Esplanade via Landezine"
+link = "http://landezine.com/index.php/2009/10/forum-esplanade-solar-panels/"
+size = 6
+
+[[chapters]]
+time = "1:22:03"
+title = "Future Directions in Teaching and Practice"
+image = "thefish.jpg"
+size = 3
