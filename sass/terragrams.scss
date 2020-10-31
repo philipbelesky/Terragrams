@@ -72,6 +72,10 @@ audio {
 
 .chapters {
   margin-top: $block-spacing * 2;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(autofill, minmax(0, 1fr));
+  grid-gap: 20px 20px;
 
   .card.is-parent {
     padding: 0; // Flush background
@@ -88,6 +92,16 @@ audio {
 
     .is-parent {
       align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .chapters {
+    display: block;
+
+    > div {
+      padding-top: 20px;
     }
   }
 }

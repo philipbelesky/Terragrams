@@ -1,6 +1,7 @@
 {% set data_path = "content/chapters/" ~ page.slug ~ ".toml" %}
 {% set episode_data = load_data(path=data_path) %}
-{% set tile_size_tally = 0 %}
+{% set tile_col_tally = 1 %}
+{% set tile_row_tally = 1 %}
 {% set last_rand = 0 %}
 
 <section class="chapters">
@@ -19,28 +20,37 @@
       {% endif %}
     {% endif %}
 
-    {% if loop.first %}<div class="tile is-ancestor">{% endif %}
     {# Track tile sizes to intelligently create new rows #}
     {% if chapter.size %}
-      {% set tile_size = chapter.size %}
+      {% set tile_col_size = chapter.size %}
     {% else %}
-      {% set tile_size = 4 %}
+      {% set tile_col_size = 4 %}
     {% endif %}
-    {% set_global tile_size_tally = tile_size_tally + tile_size %}
-    {% if tile_size_tally >= 12 %}
-      </div><div class="tile is-ancestor">
-      {% set_global tile_size_tally = 0 %}
+    {% if tile_col_tally + tile_col_size > 13 %}
+      {% set_global tile_row_tally = tile_row_tally + 1 %}
+      {% set_global tile_col_tally = 1 %}
     {% endif %}
 
-    <div class="tile has-text-centered is-parent is-{{ tile_size }}">
-      {%- set rand = get_random(start=1, end=config.extra.color_options ) -%}
-      {% if rand == last_rand %}
-        {%- set rand = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
+    {%- set randAlign = get_random(start=1, end=4 ) -%}
+    {% if randAlign == 1 %}
+      {% set align = "align-self: start;" %}
+    {% elif randAlign == 2 %}
+      {% set align = "align-self: center;" %}
+    {% else %}
+      {% set align = "align-self: end;" %}
+    {% endif %}
+
+    <div class="has-text-centered"
+         style="grid-column: {{ tile_col_tally }} / span {{ tile_col_size }};
+                grid-row: {{ tile_row_tally }} / auto; {{ align }}">
+      {%- set rand_color = get_random(start=1, end=config.extra.color_options ) -%}
+      {% if rand_color == last_rand %}
+        {%- set rand_color = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
       {% endif %}
-      {% if rand == last_rand %}
-        {%- set rand = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
+      {% if rand_color == last_rand %}
+        {%- set rand_color = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
       {% endif %}
-      <article class="card tile is-child palette-{{ rand }}">
+      <article class="card tile is-child palette-{{ rand_color }}">
         <div class="card-content">
           <h3 class="title is-size-5" onclick="chapterJump('{{ chapter.time }}');">
             {{ chapter.title }}
@@ -50,7 +60,7 @@
               <h4 class="level-item tag is-size-6" onclick="chapterJump('{{ chapter.time }}');">
                 Ch. {{ loop.index }}
               </h4>
-              {% if tile_size > 3 %}
+              {% if tile_col_size > 3 %}
               <div class="level-item"></div>
               {% else %}
               {# Need to break level into rows if too small #}
@@ -76,7 +86,8 @@
       </article>
     </div>
 
-    {%- set last_rand = rand -%}
+    {%- set last_rand = rand_color -%}
+    {% set_global tile_col_tally = tile_col_tally + tile_col_size %}
     {% if loop.last %}</div>{% endif %}
 
   {% endfor %}
