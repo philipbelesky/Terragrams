@@ -20,7 +20,7 @@ image = "3.jpg"
 title = "Environmental Art & Ancient Landscapes"
 credit = "D H Lawrence, Etruscan Places, Entrance to the Chamber Tombs"
 link = "http://gutenberg.net.au/ebooks09/0900381h.html"
-size = 4
+size = 3
 
 [[chapters]]
 time = "10:05"
@@ -89,5 +89,5 @@ time = "53:30"
 title = "Bests, Worsts, and the role of the LA"
 credit = "Michael Van Vakenburgh Associates Inc"
 link = "https://www.mvvainc.com/project.php?id=77&c=competitions"
-size = 4
+size = 6
 image = "13.png"

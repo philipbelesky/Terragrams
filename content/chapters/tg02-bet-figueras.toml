@@ -20,7 +20,7 @@ title = "Working at MBM and Barcelona's Planning"
 image = "xuklis.png"
 credit = "Image of Casa dels Xuklis, a later collaboration between MBM Arquitectes and Bet."
 link = "https://lacasadelsxuklis.org"
-size = 4
+size = 3
 
 [[chapters]]
 time = "18:00"
@@ -46,7 +46,7 @@ title = "Collaborations and the Barcelona Botanic Gardens"
 image = "bbg.jpeg"
 credit = "Image from Ferrater, Carlos, and Borja Ferrater. “Synchronizing Geometry”. Actar, 2016."
 link = "https://groundhog.la/projects/botanical-gardens-of-barcelona/"
-size = 4
+size = 6
 
 [[chapters]]
 time = "31:45"
@@ -75,7 +75,7 @@ size = 5
 [[chapters]]
 time = "36:45"
 title = "Design Process, Innovation, and Invisibility"
-size = 3
+size = 2
 
 # image of
 
