@@ -1,1 +1,94 @@
 [[chapters]]
+time = "0:53"
+title = "Introducing Elias"
+image = "elias.jpg"
+credit = ""
+link = ""
+size = 3
+
+[[chapters]]
+time = "2:28"
+title = "On-Site: New Architecture in Spain"
+image = "moma.png"
+credit = "Photo from the exhibition, via the Museum of Modern Art"
+link = "https://www.moma.org/calendar/exhibitions/86"
+size = 6
+
+[[chapters]]
+time = "5:21"
+title = "Double Identities: Architecture / Landscape"
+image = ""
+credit = ""
+link = ""
+size = 3
+
+[[chapters]]
+time = "9:08"
+title = "Inventing Problems"
+image = "heizer.jpg"
+credit = "Michael Heizer's 'City' project, courtesy ArtSpace"
+link = "https://www.artspace.com/magazine/art_101/book_report/land-art-road-trip-michael-heizer-nevada-54042"
+size = 4
+
+[[chapters]]
+time = "12:03"
+title = "The Design and Role of Vegetation"
+image = "plants.jpg"
+credit = "The Villa Cecilia Gardens, via Martínez Lapeña - Torres Arquitectos' site"
+link = "http://www.jamlet.net/projects/01_publicspace/PS07/index.html"
+size = 4
+
+
+[[chapters]]
+time = "17:50"
+title = "The Street and Street Furniture"
+image = "street.jpg"
+credit = "Renovación de la Alameda de Hércules, courtesy Metalocus"
+link = "https://www.metalocus.es/en/news/jose-antonio-martinez-lapena-and-elias-torres-tur-winners-premio-nacional-de-arquitectura-2016"
+size = 4
+
+[[chapters]]
+time = "23:38"
+title = "Licensing and its Limits"
+image = "rampas.jpg"
+credit = "Rampas al Castillo de Castelldefels, courtesy Metalocus"
+link = "https://www.metalocus.es/en/news/jose-antonio-martinez-lapena-and-elias-torres-tur-winners-premio-nacional-de-arquitectura-2016"
+size = 6
+
+[[chapters]]
+time = "28:59"
+title = "Teaching, Learning, and Practicing"
+image = ""
+credit = ""
+link = ""
+size = 2
+
+[[chapters]]
+time = "33:09"
+title = "Computers, Drawing, and Partnerships"
+image = "drawing.jpg"
+credit = "Drawing for Casa Gili, via Metalocus and Croquis"
+link = "https://www.metalocus.es/en/news/jose-antonio-martinez-lapena-and-elias-torres-tur-winners-premio-nacional-de-arquitectura-2016"
+size = 4
+
+[[chapters]]
+time = "36:53"
+title = "Innovation, Thinking, and Light"
+image = "computers.jpg"
+credit = "Model of the Forum esplanade project, via the EU Mies van der Rohe Award"
+link = "https://eumiesaward.com/work/2624"
+size = 6
+
+[[chapters]]
+time = "41:33"
+title = "The Forum Esplanade"
+image = "forum.jpg"
+credit = "The Esplanade and Solar Panels, via Landezine"
+link = "http://landezine.com/index.php/2009/10/forum-esplanade-solar-panels/"
+size = 6
+
+
+[[chapters]]
+time = "47:39"
+title = "Advice to Graduates"
+size = 2
