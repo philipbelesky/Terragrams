@@ -1,6 +1,7 @@
 {% set data_path = "content/chapters/" ~ page.slug ~ ".toml" %}
 {% set episode_data = load_data(path=data_path) %}
 {% set last_rand = 0 %}
+{% set chapters_output = 0 %}
 
 <a href="{{ page.permalink }}" class="is-block double-push-up">
   <article class="card">
@@ -21,14 +22,15 @@
 
         <div class="tile has-text-centered is-6 is-parent preview-container">
           {% set chapters = episode_data.chapters | filter(attribute="image") %}
-          {% for chapter in chapters | slice(end=3) %}
-            {% if chapter.image %}
+          {% for chapter in chapters | slice(end=6) %}
+            {% if chapter.image and chapters_output <= 2 %}
               {%- set img_path = "../static" ~ page.path ~ chapter.image -%}
               {%- set img = resize_image(path=img_path, width=125, height=175, quality=75, op='fit') -%}
               {%- set rand = get_random(start=1, end=config.extra.color_options ) -%}
               {% if rand == last_rand %}
                 {%- set rand = get_random(start=1, end=config.extra.color_options ) -%} # Reroll
               {% endif %}
+              {% set_global chapters_output = chapters_output + 1 %}
               <div class="tile is-parent is-4">
                 <article class="card is-child palette-{{ rand }}">
                   <div class="card-content">
