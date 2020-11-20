@@ -1,1 +1,77 @@
 [[chapters]]
+time = "0:21"
+title = "Introducing Jane and her Books"
+image = "jane.jpg"
+link = "https://camd.northeastern.edu/faculty/jane-amidon/"
+size = 2
+
+[[chapters]]
+time = "5:00"
+title = "Connecting Books and Seminars"
+image = "ken-smith.jpg"
+link = "https://link.springer.com/search?facet-series=%227083%22&facet-content-type=%22Book%22"
+size = 3
+
+[[chapters]]
+time = "7:57"
+title = "Relationships Between Ideas and Projects"
+image = "mvva-riverfront.jpg"
+link = "https://www.mvvainc.com/project.php?id=5&c=parks"
+credit = "A drawing from the Allegheny Riverfront Park project that was mentioned in relation to the MVVA Source Book"
+size = 4
+
+[[chapters]]
+time = "10:14"
+title = "Student Pins vs Practicioner Cushions"
+image = "smith-dumpsters.jpg"
+link = "http://www.bldgblog.com/2006/07/dumpster-gardens/"
+credit = "One of Ken Smith's dumpsterd mentioned in relation to the seminar focused on his work"
+size = 3
+
+[[chapters]]
+time = "13:35"
+title = "Process in Source Books vs Monographs"
+image = "mvva-book.jpg"
+link = "https://link.springer.com/book/10.1007/1-56898-662-9/"
+size = 3
+
+[[chapters]]
+time = "16:10"
+title = "Radical Landscapes"
+image = "sausset.jpg"
+link = "http://corajoudmichel.nerim.net/les-quatre-parcs/parcdusausset/Sausset-sommaire.html"
+credit = "Drawing of Michel Corajoud's Parc Départemental du Sausset highlighted in Radical Landscapes"
+size = 6
+
+[[chapters]]
+time = "18:25"
+title = "Dan Kiley and his Practice"
+image = ""
+credit = ""
+link = ""
+size = 2
+
+[[chapters]]
+time = "24:30"
+title = "Dan Kiley and his Monograph"
+image = "monograph.jpg"
+link = "https://books.google.com.au/books/about/Dan_Kiley.html?id=hqIrgxkTbAoC&redir_esc=y"
+size = 4
+
+[[chapters]]
+time = "28:29"
+title = "Current Projects"
+image = "bridge-park.jpg"
+credit = "Bridge Park Site Plan Proposal by Amidon design communication via The Cultural Landscape Foundation"
+link = "https://tclf.org/sites/default/files/microsites/secondwave2/amidon.html"
+size = 4
+
+[[chapters]]
+time = "32:50"
+title = "Innovation and Teaching"
+size = 2
+
+[[chapters]]
+time = "36:50"
+title = "Timelines and Gripes"
+size = 2
