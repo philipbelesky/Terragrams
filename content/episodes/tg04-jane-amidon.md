@@ -1,13 +1,13 @@
 +++
 title = "Dispatch 4: Jane Amidon"
-description = ""
-draft = true
-date = 2020-01-25
+description = "Jane Amidon is an Assistant Professor at the Knowlton School of Architecture as well as the principal of Amidon Design Communication. She is also the editor for the first four Source Books in Landscape Architecture as well as the author of Dan Kiley's monograph and Radical Landscapes. Here she talks about books and her role as a practitioner and professor."
+date = 2020-11-20
 [extra]
-byte_length = "TODO"
-duration = "TODO"
-original_date = 2020-03-15
-file = "http://google.com"
+chapters = true
+byte_length = "11684871"
+duration = "2494"
+original_date = 2006-03-15
+file = "TG04-Jane-Amidon.mp3"
 +++
 
-Jane Amidon discusses her work as the editor for the first 4 Source Books in Landscape Architecture as well as the making of Dan Kiley's monograph, The Complete Works of America's Master Landscape Architect. She also talks about her role as a practitioner and professor. Jane Amidon is an Assistant Professor and Section Heas of the Landscape Architecture Section of the Knowlton School of Architecture at the Ohio State University as well as the principal of Amidon Design Communication in Columbus, Ohio. She is also the author of a number of many other books including Radical Landscapes: Reinventing Outdoor Space. March 15, 2006 
+Jane Amidon is an Assistant Professor and Section Head of the Landscape Architecture Section of the Knowlton School of Architecture at the Ohio State University as well as the principal of Amidon Design Communication in Columbus, Ohio. She is also the editor for the first four *Source Books in Landscape Architecture* as well as the author of  Dan Kiley's monograph, *The Complete Works of America's Master Landscape Architect*, and *Radical Landscapes: Reinventing Outdoor Space*. Here she talks about books and her role as a practitioner and professor.
