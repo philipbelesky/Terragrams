@@ -46,7 +46,11 @@
                 <link>{{ episode.permalink | safe }}</link>{# link to episode webpage #}
                 <guid>{{ episode.slug | escape_xml | safe }}</guid>
                 <description>
-                    <![CDATA[{{ episode.content|safe }}<p>This show employs visual chapters that update the show art to provide illustrations relevant to the ongoing onversation. If your podcast client does not support this, you can view the chapter art and their sources at <a href="{{ episode.permalink | safe }}"> this episode's webpage</a>.</p>]]>
+                    <![CDATA[
+                        <p><em>This episode was originally broadcast in {{ episode.extra.original_date|date(format="%B %Y") }}.</em></p>
+                        {{ episode.content|safe }}
+                        <p>This show employs visual chapters that update the show art to provide illustrations relevant to the ongoing onversation. If your podcast client does not support this, you can view the chapter art and their sources at <a href="{{ episode.permalink | safe }}"> this episode's webpage</a>.</p>
+                    ]]>
                 </description>
                 <itunes:summary>{{ episode.description|striptags }}</itunes:summary>
                 <itunes:author>{{ config.extra.author|striptags }}</itunes:author>
