@@ -1,1 +1,76 @@
 [[chapters]]
+time = "0:25"
+title = "Introducing James Corner & Field Operations"
+image = "james-corner.jpg"
+size = 3
+
+[[chapters]]
+time = "2:39"
+title = "The Highline & Fresh Kills as Fields"
+image = "fresh-kills-staging.jpg"
+link = "https://www.fieldoperations.net/project-details/project/freshkills-park.html"
+credit = "Staging strategies for Fresh Kills"
+size = 9
+
+[[chapters]]
+time = "5:29"
+title = "Post-Competition Evolutions & Iterations"
+image = "high-line-composition.jpg"
+link = "https://www.fieldoperations.net/project-details/project/the-high-line.html"
+credit = "Composition systems in the High Line competition entry"
+size = 7
+
+[[chapters]]
+time = "10:37"
+title = "Post-Industrial Landscapes & Types"
+image = "high-line-linear.jpg"
+credit = "The High Line is notoriously line-like"
+size = 5
+
+[[chapters]]
+time = "16:18"
+title = "Collaborating with Architects"
+image = "highline-drs.jpg"
+link = "https://dsrny.com/project/the-high-line"
+size = 5
+
+[[chapters]]
+time = "22:29"
+title = "Urban Design & Disciplinary Roles"
+image = "rogers-docks.jpg"
+link = "https://www.rsh-p.com/projects/silvertown-docks/"
+credit = "Roger Strik Harbour + Partner's model for Silvertown Docks"
+size = 6
+
+[[chapters]]
+time = "27:46"
+title = "The Size & Shape of Practice"
+size = 2
+
+[[chapters]]
+time = "32:45"
+title = "Taking (Precise) Measures"
+image = "taking-measure.png"
+credit = "Map from Taking Measures Across The American Landscape"
+size = 8
+
+[[chapters]]
+time = "38:48"
+title = "The Teaching of Mapping"
+image = "agency-mapping.jpg"
+link = "https://imaginarymuseum.org/LPG/Mapsitu1.htm"
+credit = "Guy Debord's Psychogeographic guide of Paris (referenced in The Agency of Mapping)"
+size = 4
+
+[[chapters]]
+time = "41:37"
+title = "Penn & Penn Graduates"
+size = 3
+
+[[chapters]]
+time = "45:19"
+title = "Future Directions"
+image = "future-projects.jpg"
+credit = "A (then) future project"
+size = 4
+
