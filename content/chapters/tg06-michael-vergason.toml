@@ -1,1 +1,57 @@
 [[chapters]]
+time = "0:17"
+title = "Introducing Michael"
+image = "michael.jpg"
+link = "https://www.vergason.net/michael-vergason-fasla-faar"
+size = 3
+
+[[chapters]]
+time = "1:09"
+title = "Drawing Practice"
+image = "dwg.jpg"
+link = "https://www.vergason.net/michael-vergason-fasla-faar"
+credit = "A drawing of Michael's"
+size = 6
+
+[[chapters]]
+time = "7:01"
+title = "Drawing at UVA and the Office"
+image = "sundance.jpg"
+link = "https://www.vergason.net/sundance-square-plaza"
+credit = "Example of a drawing from MVLA - a perspective of the Sundance Square Plaza"
+size = 8
+
+[[chapters]]
+time = "13:46"
+title = "Office Structures, Textures, & Spaces"
+image = "practice.jpg"
+link = "https://landezine-award.com/michael-vergason-landscape-architects/"
+credit = "The (current) practice, via Landezine"
+size = 3
+
+
+[[chapters]]
+time = "22:33"
+title = "EDAW & Starting a Practice"
+size = 2
+
+[[chapters]]
+time = "32:33"
+title = "Fellowships & the ASLA"
+image = "gannett.jpg"
+link = "https://www.vergason.net/gannett-usa-today-headquarters"
+credit = "Drawing from the ASLA-award winning Gannett USA Today HQ project"
+size = 5
+
+[[chapters]]
+time = "38:13"
+title = "Collaborations, Workloads, & Invention"
+image = "gannett2.jpg"
+link = "https://www.vergason.net/gannett-usa-today-headquarters"
+credit = "Photograph of the Gannett USA Today HQ project (that was completed with Kohn Pedersen Fox Architects)"
+size = 5
+
+[[chapters]]
+time = "45:59"
+title = "The Future of MVLA"
+size = 3

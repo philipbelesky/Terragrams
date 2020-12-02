@@ -1,13 +1,13 @@
 +++
 title = "Dispatch 6: Michael Vergason"
-description = ""
-draft = true
-date = 2020-01-25
+description = "Michael Vergason talks about his practice, the process of drawing, the ASLA, and his experience as a principal at EDAW. He is principal of Michael Vergason Landscape Architects and the 2006 Thomas Jefferson Memorial Foundation Professorship in Architecture at the University of Virginia."
+date = 2020-12-04
 [extra]
-byte_length = "TODO"
-duration = "TODO"
-original_date = 2020-05-11
+byte_length = "30080088"
+duration = "3,006"
+chapters = true
+original_date = 2006-05-11
 file = "http://google.com"
 +++
 
-Michael Vergason talks about his practice, the process of drawing, the ASLA and his experience as a principal at EDAW. He is principal of Michael Vergason Landscape Architects, LTD in Alexandria, Virginia and the 2006 Thomas Jefferson Memorial Foundation Professorship in Architecture at the University of Virginia. May 11, 2006
+Michael Vergason talks about his practice, the process of drawing, the ASLA, and his experience as a principal at EDAW. Michael is principal of [Michael Vergason Landscape Architects](https://www.vergason.net) in Alexandria, Virginia and the 2006 Thomas Jefferson Memorial Foundation Professorship in Architecture at the University of Virginia.
