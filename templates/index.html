@@ -9,11 +9,11 @@
     <h2 class="is-size-4 double-push-up">Latest Episodes</h2>
 
     {%- set episodes = get_section(path="episodes/_index.md") -%}
-    {% for page in episodes.pages | sort(attribute="date") | reverse | slice(end=5) %}
+    {% for page in episodes.pages | sort(attribute="date") | reverse | slice(end=8) %}
       {% include "partials/episode-item.html" %}
     {% endfor %}
 
-    {% if episodes.pages | length > 5 %}
+    {% if episodes.pages | length > 8 %}
       <a href="{{ config.base_url ~ '/episodes' }}">
         <article class="push-up">
           <div class="card-content">
