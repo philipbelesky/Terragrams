@@ -4,7 +4,7 @@ description = "James Corner, landscape architect and urban designer, is the foun
 date = 2020-11-27
 [extra]
 chapters = true
-byte_length = "29,933,571"
+byte_length = "29933571"
 duration = "2992"
 original_date = 2006-03-23
 file = "TG05-James-Corner.mp3"

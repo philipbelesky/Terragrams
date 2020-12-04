@@ -4,7 +4,7 @@ description = "Michael Vergason talks about his practice, the process of drawing
 date = 2020-12-04
 [extra]
 byte_length = "30080088"
-duration = "3,006"
+duration = "3006"
 chapters = true
 original_date = 2006-05-11
 file = "TG06-Michael-Vergason.mp3"
