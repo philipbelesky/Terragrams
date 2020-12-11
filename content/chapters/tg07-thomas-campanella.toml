@@ -1,1 +1,51 @@
 [[chapters]]
+time = "0:17"
+title = "Introducing Tom & the Resilient City"
+image = "tom.jpg"
+link = "https://urbanismseminars.cornell.edu/people/thomas-campanella"
+size = 3
+
+[[chapters]]
+time = "8:22"
+title = "New Orleans & Vulnerable Cities"
+image = "book.jpg"
+size = 4
+link = "https://global.oup.com/academic/product/the-resilient-city-9780195175837?cc=au&lang=en&"
+
+[[chapters]]
+time = "14:17"
+title = "Firefighting & Forestry"
+image = "elm.jpg"
+link = "https://yalebooks.yale.edu/book/9780300184471/republic-shade"
+size = 4
+
+[[chapters]]
+time = "24:30"
+title = "The Changing Chinese City"
+size = 2
+
+[[chapters]]
+time = "34:04"
+title = "Changes in Chinese Architecture"
+size = 3
+
+[[chapters]]
+time = "37:10"
+title = "Ecological Leadership in China"
+image = "west_lake.jpg"
+link = "https://www.asla.org/2010awards/040.html"
+credit = "Site plan for the 'renovation' of the West Lake region in Hangzhou by the Hangzhou Landscape Architecture Design Institute"
+size = 6
+
+[[chapters]]
+time = "44:34"
+title = "Jacobs, Lynch, New Urbanism"
+image = "kevinlynch.jpg"
+link = "https://failedarchitecture.com/kevin-lynch-and-the-gps-predicting-the-culture-of-navigation-in-1960/"
+credit = "Boston (1955) by Nishan Bichajian, from Kevin Lynch's Perceptual Form of the City project, via Failed Architecture."
+size = 4
+
+[[chapters]]
+time = "59:20"
+title = "The Evolution of the Small Town"
+size = 3
