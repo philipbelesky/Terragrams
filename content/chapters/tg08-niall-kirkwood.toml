@@ -1,1 +1,63 @@
 [[chapters]]
+time = "0:17"
+title = "Introducing Niall & his Introduction to Landscape Architecture"
+image = "niall.jpg"
+link = "https://www.gsd.harvard.edu/person/niall-kirkwood/"
+size = 3
+
+[[chapters]]
+time = "6:01"
+title = "Architecture in Landscape Architecture"
+size = 3
+
+[[chapters]]
+time = "13:23"
+title = "Studying at Penn"
+image = "symap.jpg"
+credit = "Example of a map produced using SYMAP (early GIS software) at around the same time."
+link = "http://www.harvarddesignmagazine.org/issues/36/substance-and-structure-ii-the-digital-culture-of-landscape-architecture"
+size = 6
+
+[[chapters]]
+time = "15:50"
+title = "Working & Teaching at Olin"
+image = "banyoles.jpg"
+credit = "Render of the Banyoles Park [and hotel] project, an Olin/Eisenman Associates project."
+link = "https://eisenmanarchitects.com/Banyoles-Olympic-Hotel-1989"
+size = 8
+
+[[chapters]]
+time = "24:16"
+title = "Weathering & Public Space"
+image = "weathering.jpg"
+link = "https://www.gsd.harvard.edu/publication/weathering-and-durability-in-landscape-architecture-fundamentals/"
+size = 3
+
+[[chapters]]
+time = "33:05"
+title = "Reclaimed Landscapes & Form vs Planning"
+image = "manufactured.jpg"
+link = "https://www.gsd.harvard.edu/publication/manufactured-sites/"
+size = 4
+
+[[chapters]]
+time = "46:12"
+title = "Sponge City & Floodplains"
+image = "sponge.jpg"
+credit = "Collage from the 2007 Sponge City project, via Pruned"
+link = "https://pruned.blogspot.com/2007/05/spongecity.html"
+size = 5
+
+[[chapters]]
+time = "54:10"
+title = "Academic Practice & Competitions"
+size = 3
+
+[[chapters]]
+time = "58:28"
+title = "Postscript: More on Brownfields"
+credit = "Diagram of field contaminants, from a latter book of Niall's"
+link = "https://www.asla.org/2016awards/172182.html"
+image = "phyto.jpg"
+size = 6
+
