@@ -6,7 +6,7 @@
 {% endif %}
 
 {# Add pretty date suffixes #}
-{% set d = page.extra.original_date|date(format="%e") %}
+{% set d = page.extra.original_date|date(format="%e") | trim %}
 {% if d == "1" or d == "21" or d == "31" %}
   {% set original_date_suffix = "st" %}
 {% elif d == "2" or d == "22" %}
@@ -16,7 +16,8 @@
 {% else %}
   {% set original_date_suffix = "th" %}
 {% endif %}
-{% set d = page.date|date(format="%e") %}
+
+{% set d = page.date|date(format="%e") | trim %}
 {% if d == "1" or d == "21" or d == "31" %}
   {% set date_suffix = "st" %}
 {% elif d == "2" or d == "22" %}
