@@ -1,1 +1,68 @@
 [[chapters]]
+time = "0:20"
+title = "Introducing Elizabeth & the Groundwork Book"
+image = "beth.jpg"
+link = "https://www.arch.virginia.edu/people/beth-meyer"
+size = 3
+
+[[chapters]]
+time = "7:18"
+title = "Innovation in Theory & LA's Voice"
+size = 2
+
+[[chapters]]
+time = "11:42"
+title = "Allied Discourses & Histories"
+image = "aalu.jpg"
+size = 4
+
+[[chapters]]
+time = "16:48"
+title = "Site Interpretation & Pedagogies"
+size = 3
+
+[[chapters]]
+time = "24:17"
+title = "Being a Designer & Design Consulting"
+image = "wellesley.jpg"
+link = "https://www.mvvainc.com/project.php?id=29"
+credit = "Alumnae Valley Landscape Restoration for Wellesley College by MVVA"
+size = 6
+
+[[chapters]]
+time = "32:03"
+title = "Teaching & ASLA's Student Awards"
+image = "asla_student.gif"
+link = "https://www.asla.org/awards/2006/studentawards/index.html"
+size = 3
+
+[[chapters]]
+time = "38:28"
+title = "LA at UVA"
+size = 3
+
+[[chapters]]
+time = "46:12"
+title = "Ecology in Practice"
+image = "hargreaves.jpg"
+link = "http://www.hargreaves.com/work/louisville-waterfront-park/"
+credit = "Model of Hargreave Jones' Louisville Waterfront Park"
+size = 7
+
+[[chapters]]
+time = "54:41"
+title = "Women in Landscape Architecture"
+size = 3
+
+[[chapters]]
+time = "58:19"
+title = "Galleries & Competitions"
+image = "groundswell.png"
+link = "https://www.moma.org/calendar/exhibitions/117?installation_image_index=1"
+credit = "The Groundswell Exhibition at MoMA"
+size = 8
+
+[[chapters]]
+time = "1:03:16"
+title = "Manifestos & Advice for Graduates"
+size = 3
