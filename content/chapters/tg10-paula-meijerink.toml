@@ -1,1 +1,51 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Paula & Asphalt Landscapes"
+image = "paula.jpg"
+link = "https://knowlton.osu.edu/people/meijerink.1"
+credit = "Image via Ohio State University"
+size = 3
+
+[[chapters]]
+time = "7:03"
+title = "Making Asphalt Beautiful"
+image = "asphalt.jpg"
+link = "https://gothamist.com/news/new-street-art-courtesy-dot-and-shopping-carts"
+credit = "Asphalt Tattoo by Paula Meijerink [completed after the interview] via Gothamist"
+size = 6
+
+[[chapters]]
+time = "11:17"
+title = "WANTED Studio"
+image = "cracks.jpg"
+link = "http://www.spontaneousinterventions.org/project/parking-plot"
+credit = "Parking Plot, via spontaneousinterventions"
+size = 5
+
+[[chapters]]
+time = "21:15"
+title = "Invention in America vs Europe"
+size = 3
+
+[[chapters]]
+time = "26:45"
+title = "Family and Gender in Practice"
+size = 4
+
+[[chapters]]
+time = "34:55"
+title = "Design in the Netherlands"
+size = 3
+
+[[chapters]]
+time = "39:44"
+title = "Practice and Repitition"
+image = "forest1.jpg"
+link = "https://knowlton.osu.edu/news/2020/09/2020-urban-forest-creates-pedestrian-oasis-montreal"
+credit = "A future small project: the Urban Forest in Montreal"
+size = 6
+
+[[chapters]]
+time = "44:16"
+title = "Practice and Teaching"
+size = 3
