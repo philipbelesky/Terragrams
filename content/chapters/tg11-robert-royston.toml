@@ -1,1 +1,98 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Robert"
+image = "robert.png"
+credit = "Image via Marc Treibs"
+size = 3
+
+[[chapters]]
+time = "3:31"
+title = "Early Influences"
+image = "haley.jpg"
+link = "https://www.artfixdaily.com/artwire/release/6984-georgia-museum-of-art-to-present-%E2%80%9Cjohn-haley-berkeley-school-abst"
+credit = "A work by John Haley, via artfixdaily"
+size = 4
+
+[[chapters]]
+time = "10:56"
+title = "Early Practice"
+image = "merced.jpg"
+link = "https://tclf.org/sites/default/files/styles/crop_2000x700/public/thumbnails/image/1935_hero_Parkmerced.jpg"
+credit = "Aerial of Parkmerced, via the Cultural Landscape Foundation"
+size = 5
+
+[[chapters]]
+time = "17:17"
+title = "Wartime and Postwar Practice"
+image = "model.jpg"
+link = "https://improvisedlife.com/2016/11/30/robert-royston/"
+credit = "Design experiments produced during WW2, via improvisedlife"
+size = 5
+
+[[chapters]]
+time = "28:09"
+title = "Teaching and Founding a Practice"
+image = "uccali.jpg"
+link = "http://imgzoom.cdlib.org/Fullscreen.ics?ark=ark:/28722/bk0000n5c5f/z1&order=3&brand=oac4"
+credit = "Work produced for the University of California, via the Online Archive of California"
+size = 7
+
+[[chapters]]
+time = "35:03"
+title = "Public Parks & Playgrounds"
+image = "Robert-Royston-Drawing.jpg"
+link = "https://www.kickstarter.com/projects/167789719/the-robert-royston-oral-history"
+credit = "A drawing for the Mitchel Park project, via The Robert Royston Oral History Kickstarter"
+size = 6
+
+[[chapters]]
+time = "47:40"
+title = "Park Longevity & Central Park"
+image = "santaclara.jpg"
+credit = "Aerial of Santa Clara Central Park, via the Cultural Landscape Foundation"
+link = "https://www.youtube.com/watch?app=desktop&v=HnL4cS97hXc"
+size = 6
+
+[[chapters]]
+time = "53:05"
+title = "Planting & Travelling"
+image = "residence.png"
+link = "http://imgzoom.cdlib.org/Fullscreen.ics?ark=ark:/28722/bk0000n563r/z1&order=3&brand=oac4"
+credit = "The Royston Residence, via The Online Archive of California"
+size = 5
+
+[[chapters]]
+time = "1:00:12"
+title = "Design Principles"
+size = 2
+
+[[chapters]]
+time = "1:05:54"
+title = "The Landscape Matrix"
+image = "sunriver.jpg"
+link = "http://www.oac.cdlib.org/ark:/28722/bk0000n5b6g/?brand=oac4"
+credit = "Plan for the Sunriver project, via The Online Archive of California"
+size = 5
+
+[[chapters]]
+time = "1:13:59"
+title = "The Matrix at Ladera"
+image = "ladera.gif"
+link = "https://publishing.cdlib.org/ucpressebooks/view?docId=ft6g50073x;chunk.id=d0e4281;doc.view=print"
+credit = "Site plan for the Ladera Housing project, via Treib and Imbert"
+size = 6
+
+[[chapters]]
+time = "1:16:14"
+title = "Current Issues"
+size = 2
+
+[[chapters]]
+time = "1:19:32"
+title = "RHAA's Key Projects"
+size = 2
+
+[[chapters]]
+time = "1:24:54"
+title = "Landscape Architecture as Medicine"
+size = 2
