@@ -1,1 +1,50 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Reuben & Royston's Legacy"
+image = "reuben-bw.jpg"
+link = "https://www.arch.virginia.edu/people/reuben-m-rainey"
+size = 3
+
+[[chapters]]
+time = "6:40"
+title = "Preservation and Play in Royston's Parks"
+image = "santaclara.jpg"
+credit = "A playground at Santa Clara Central Park"
+link = "https://tclf.org/pioneer/robert-royston"
+size = 8
+
+[[chapters]]
+time = "21:38"
+title = "Film, History, & Teaching"
+image = "gamberaia1700.jpg"
+link = "http://www.travelingintuscany.com/gardens/gamberaia.htm"
+credit = "Photograph of the Villa Gamberaia garden's"
+size = 7
+
+[[chapters]]
+time = "26:47"
+title = "Gardens & Social Change"
+image = "garden-story.png"
+link = "https://www.cultureunplugged.com/documentary/watch-online/play/7097/Garden-Story--Episode-6---The-Garden-as-Catalyst-for-Community"
+size = 4
+
+[[chapters]]
+time = "33:01"
+title = "Healing Landscapes"
+image = "joelschnaper.jpg"
+credit = "The Joel Schnaper Memorial Garden by Dirtworks"
+link = "https://www.cultureunplugged.com/documentary/watch-online/play/7098/Garden-Story--Episode-7--The-Garden-as-Healer"
+size = 6
+
+[[chapters]]
+time = "41:43"
+title = "Religion & Values in Landscapes"
+image = "zen.jpg" # zen buddhist garden
+link = "https://www.metropolismag.com/architecture/landscape/sophie-walker-japanese-garden/"
+credit = "Taizō-in, Myōshin-ji Complex, by Akira Nakata and via Metropolis and Sophie Walker"
+size = 5
+
+[[chapters]]
+time = "47:50"
+title = "UVA & Current Projects"
+size = 4
