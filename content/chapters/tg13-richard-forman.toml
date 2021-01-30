@@ -1,1 +1,59 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Richard & the Urban Regions Book"
+image = "richard.jpg" # image of richard
+link = "https://www.gsd.harvard.edu/person/richard-t-t-forman/"
+size = 3
+
+[[chapters]]
+time = "6:28"
+title = "Tools & Patterns for Planning Urban Regions"
+image = "patterns.jpg" # find examples of patterns from his book
+link = "An example of spatial patterns illustrated from the Land Mosaics as illustrated by David Buckley Borden"
+credit = "https://www.davidbuckleyborden.com/the-forman-watercolor-diagrams"
+size = 9
+
+[[chapters]]
+time = "15:08"
+title = "Scientific Perspectives in Design Schools"
+image = "mosaic.jpg"
+link = "https://blog.mozaico.com/park-guell-mosaic/"
+credit = "Mosaics at Park Güell, via Mozaico "
+size = 4
+
+[[chapters]]
+time = "21:29"
+title = "Nature's Patterns and Principles at Scale"
+image = "patterns2.jpg"
+credit = "Example of a principle from the Landscape Ecology book"
+size = 5
+
+[[chapters]]
+time = "37:00"
+title = "Collaborations & Urban Growth"
+image = "growth.jpg"
+credit = "Illustration of considering natural systems in the planning process from Landscape Ecology Principles in Landscape Architecture and Land-Use Planning"
+size = 5
+
+[[chapters]]
+time = "47:12"
+title = "Ecosystem Services & Emeralds"
+size = 3
+
+[[chapters]]
+time = "51:21"
+title = "Making a Difference"
+size = 3
+
+[[chapters]]
+time = "54:09"
+title = "New Projects & Road Ecologies"
+image = "roads.jpg"
+link = "https://www.thesolutionsjournal.com/article/the-future-of-roads-no-driving-no-emissions-nature-reconnected/"
+credit = "Priority locations for converting highways to netways to restore and reconnect nature, by R. Forman and D. Sperling"
+size = 7
+
+[[chapters]]
+time = "1:01:21"
+title = "Teaching"
+size = 4
