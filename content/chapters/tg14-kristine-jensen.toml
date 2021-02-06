@@ -1,1 +1,65 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Kristine & the Nicolai Kulturcenter"
+image = "kristine.jpg"
+link = "https://www.kristinejensen.dk/om-os/"
+size = 4
+
+[[chapters]]
+time = "6:29"
+title = "Designing for Publics & with Patterns"
+image = "kulturcenter.jpg"
+link = "http://landezine.com/index.php/2010/08/nicolai-kulturcenter/"
+credit = "The patterns and hardscape at the Kulturcenter, via Landezine"
+size = 8
+
+[[chapters]]
+time = "11:04"
+title = "Modernism in Denmark"
+image = "sorenson.jpg"
+link = "https://landscapetheory1.wordpress.com/tag/carl-theodor-sorensen/"
+credit = "Carl Theodor Sørensen, Geometrical Gardens, via Landscape Theory"
+size = 5
+# image or work from Erik Erstad Jørgensen and G. N. Brandt
+
+[[chapters]]
+time = "18:50"
+title = "Copenhagen's Evolution & the Moesgaard Museum"
+image = "Moesgaard.jpg"
+link = "https://www.kristinejensen.dk/projekter/moesgaard-museum/"
+credit = "The Moesgaard Museum Building and Landscape, via Kristine Jensen Landskab & Arkitektur"
+size = 7
+
+[[chapters]]
+time = "21:56"
+title = "Competition Strategies"
+image = "beforeafter.png"
+link = "https://www.kristinejensen.dk/projekter/moesgaard-museum/"
+credit = "The Baroque lines developed for the Moesgaard project"
+size = 9
+
+[[chapters]]
+time = "26:36"
+title = "Form as Container"
+image = "circles.jpg" # something with a circle
+link = "https://www.kristinejensen.dk/projekter/prags/"
+credit = "Circles at the Prags Boulevard project"
+size = 5
+
+[[chapters]]
+time = "29:56"
+title = "Academic Research"
+size = 3
+
+[[chapters]]
+time = "39:48"
+title = "Running a Studio & a Business"
+size = 3
+
+[[chapters]]
+time = "47:17"
+title = "Future Directions"
+image = "aarhus.jpg"
+credit = "https://www.kristinejensen.dk/projekter/aarhus-havnefront/"
+size = 6 # cut at 51:50
+
