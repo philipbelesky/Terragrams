@@ -4,7 +4,7 @@ description = "Kristine Jensen is a Danish landscape architect with her Studio A
 date = 2021-02-06
 [extra]
 chapters = true
-byte_length = "T35266646ODO"
+byte_length = "35266646"
 duration = "3275"
 original_date = 2008-09-25
 file = "TG14-Kristine-Jensen"

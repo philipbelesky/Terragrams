@@ -1,1 +1,68 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Chris and Stoss"
+image = "chris-twitter.jpg"
+link = "https://www.stoss.net/studio/team"
+credit = ""
+size = 3
+
+[[chapters]]
+time = "7:39"
+title = "Working at Hargreaves"
+image = "cinci.png"
+link = "http://www.hargreaves.com/work/university-of-cincinnati-main-street/"
+credit = "Main Street at the University of Cincinnati, by Hargreaves Jones, image via Hargreaves Jones."
+size = 8
+# main street of univeristy of cincinnati
+
+[[chapters]]
+time = "9:38"
+title = "Landscape as Urbanism & Public Works"
+image = "works.png"
+link = "https://www.worldcat.org/title/landscape-urbanism-reader/oclc/62697099"
+credit = "Figure from Chris' article, Public Works Practice, in The Landscape Urbanism Reader (2006)."
+size = 4
+
+[[chapters]]
+time = "16:58"
+title = "The Origin and Sustainability of Landscape Urbanism"
+image = "erieplaza.jpg"
+link = "https://www.stoss.net/projects/resiliency-waterfronts/erie-street-plaza"
+credit = "The Erie Street Plaza project. The bamboo planting referenced in the discussion were not part of the constructed landscape. Image via Stoss."
+size = 8
+
+[[chapters]]
+time = "25:52"
+title = "The Structure of Collaboration"
+image = "dons.jpg"
+link = "https://www.stoss.net/projects/planning-urbanism/lower-don-lands"
+credit = "The Lower Don Lands proposal developed by Stoss with a wide range of collaborating teams and disciplines. Image via Stoss."
+size = 5
+
+[[chapters]]
+time = "35:28"
+title = "Research and Innovation"
+image = "metis.jpg"
+link = "https://www.stoss.net/projects/installation-exhibition/safe-zone"
+credit = "The Safe Zone installation exploring the adaptation of rubber surfacing. Image via Stoss."
+size = 6
+
+[[chapters]]
+time = "42:14"
+title = "Maintenance and Long-Term Engagement"
+size = 3
+
+[[chapters]]
+time = "47:35"
+title = "The Structure of Stoss"
+size = 3
+
+[[chapters]]
+time = "53:38"
+title = "Influences, Mentors, & Peers"
+size = 3
+
+[[chapters]]
+time = "56:40"
+title = "Future Directions"
+size = 3
