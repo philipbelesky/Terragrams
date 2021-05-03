@@ -1,1 +1,49 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Gary & Reed+Hilderbrand"
+image = "gary.png"
+link = "https://www.reedhilderbrand.com/people/gary_hilderbrand"
+credit = ""
+size = 3
+
+[[chapters]]
+time = "13:17"
+title = "Influences and Disciplinary Histories"
+image = "books.jpg"
+link = "https://www.gsd.harvard.edu/publication/the-miller-garden-icon-of-modernism/"
+credit = ""
+size = 4
+
+[[chapters]]
+time = "19:54"
+title = "The Place of Landscape In Urbanism"
+image = "freshkills.jpeg"
+link = "https://www.fieldoperations.net/project-details/project/freshkills-park.html"
+credit = "A rendering from the Fresh Kills competition entry by James Corner Field Operations ~2002"
+size = 5
+
+[[chapters]]
+time = "30:00"
+title = "Practice in Culture"
+size = 2
+
+[[chapters]]
+time = "35:45"
+title = "Institutional Projects"
+image = "dallas.png"
+link = "https://www.reedhilderbrand.com/works/dallas_museum_of_art?c=garden"
+credit = "Plan from Reed+Hilderbrand's restoration of the Dallas Museum of Art Courtyard"
+size = 4
+
+[[chapters]]
+time = "44:23"
+title = "Sustainability & Planting"
+image = "leventritt.png"
+link = "https://www.reedhilderbrand.com/works/arnold_arboretum_leventritt_garden?c=park"
+credit = "The Arnold Arboretum Leventritt Garden by Reed+Hilderbrand"
+size = 6
+
+[[chapters]]
+time = "51:25"
+title = "Design Generators and Advice"
+size = 4
