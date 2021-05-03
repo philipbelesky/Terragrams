@@ -1,6 +1,6 @@
 +++
 title = "Dispatch 16: Gary Hilderbrand"
-description = "Gary Hilderbrand, landscape architect, is one of the founding principals of Reed Hilderbrand and is a Fellow of the American Academy in Rome. Gary joins Terragrams to discuss his partnership with Douglas Reed, professional practice, multiple career paths, and his role in the 5th European Biennal of Landscape Architecture in Barcelona."
+description = "Gary Hilderbrand is a founding principals of Reed Hilderbrand and a Fellow of the American Academy in Rome. Gary joins Terragrams to discuss his partnership with Douglas Reed, professional practice, multiple career paths, and his role in the 5th European Biennal of Landscape Architecture in Barcelona."
 date = 2021-05-03
 [extra]
 chapters = true

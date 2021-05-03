@@ -11,7 +11,7 @@ Further recorded dispatches include Mia Lehrer, Jordi Badia, Tone Lindheim, Sylv
 
 Terragrams is hosted by Craig Verzone, a practicing landscape architect and partner at [Verzone Woods Architectes](https://www.vwa.ch), a multi-disciplinary design studio in Vevey, Switzerland. Verzone carries degrees from Cornell and Harvard University in the fields of Landscape Architecture and Urban Design. As an American Academy of Rome Prize recipient, he studied the landscape of collective housing in post-war Rome. Notable projects include the park at the foot of Le Corbusier’s Unité d’Habitation in Briey, France, the Las Margas Village in northern Spain, the Agro-Urban Park of Geneva, the Market Square of Vevey as well as the upcoming Birkhauser book entitled [Food Urbanism](https://www.degruyter.com/view/title/529945?rskey=oNgfpl&result=1).
 
-The 2020 re-broadcast of Terragrams is produced and edited by [Philip Belesky](https://philipbelesky.com). Philip is a lecturer at RMIT University and the manager of its [Master of Landscape Architecture program](http://landscapearchitecture.rmit.edu.au).
+The re-broadcast of Terragrams is produced and edited by [Philip Belesky](https://philipbelesky.com). Philip is a lecturer at RMIT University and the manager of its [Master of Landscape Architecture program](http://landscapearchitecture.rmit.edu.au).
 
 ### Acknowledgements
 
