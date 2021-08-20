@@ -1,1 +1,67 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Liat Margolis & Living Systems"
+image = "liat.png"
+link = "https://www.daniels.utoronto.ca/people/core-faculty/liat-margolis"
+size = 3
+
+[[chapters]]
+time = "4:05"
+title = "Grooming & Maintenance"
+image = "elsässertor-office-building.png"
+link = "https://www.vogt-la.com/elsaessertor_office_building"
+credit = "Section of the 'stunted' planting system developed by Vog/Herzog (featured in p96 of Living Systems)"
+size = 5
+
+[[chapters]]
+time = "7:45"
+title = "Material and Process Strategies"
+image = "livingsystems.png" # image of book
+link = "https://link.springer.com/book/10.1007/978-3-7643-8297-1"
+credit = "Liat Margolis and Alexander Robinson's Living Systems book"
+size = 4
+
+[[chapters]]
+time = "16:24"
+title = "Material Consulting"
+image = "ica.jpeg"
+credit = "The decking on DS+R's ICA project, photograph by Pygmalion Karatzas"
+link = "https://divisare.com/projects/330354-diller-scofidio-renfro-pygmalion-karatzas-institute-of-contemporary-art"
+size = 4
+
+[[chapters]]
+time = "20:22"
+title = "Material Evolutions and Landscape"
+image = "shop-drops.jpg"
+credit = "Drop structures for runoff remediation in the Shop Creek project (featured in p68-69 of Living Systems)"
+link = "https://www.wenkla.com/projects/shop-creek"
+size = 7
+
+[[chapters]]
+time = "27:02"
+title = "Hargreaves Work"
+image = "knoxville.jpg"
+size = 5
+credit = "The Belltower Walk & Belvedere, from the Knoxville South Waterfront Vision Plan, by Hargreaves (et al)"
+link = "https://archive.knoxplanning.org/zoning/swaterfront/vision_plan.pdf"
+
+[[chapters]]
+time = "33:12"
+title = "Teaching and UToronto"
+size = 3
+
+[[chapters]]
+time = "39:09"
+title = "The Materials Collection"
+image = "gsd-materials.png"
+link = "https://materialorder.org/collection/materials/search/"
+credit = "Screenshot from the GSD/RISD materials collection search engine"
+size = 4
+
+[[chapters]]
+time = "44:49"
+title = "Favourite Furballs"
+image = "coir-log.jpg"
+link = "https://sustainableoutdoors.com.au/services-4/environmental-management/erosion-control/"
+credit = "A coir log providing biodegradeable erosion control, image by Sustainable Outdoors"
+size = 7
