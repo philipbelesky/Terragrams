@@ -16,7 +16,7 @@ GEM
       yell (~> 2.0)
     mercenary (0.4.0)
     mini_portile2 (2.6.1)
-    nokogiri (1.12.3)
+    nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogumbo (2.0.5)
