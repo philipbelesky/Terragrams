@@ -21,7 +21,7 @@
     "instant.page": "^5.1.0",
     "path-parse": "^1.0.7",
     "postcss": "^8.3.6",
-    "terser": "^5.8.0",
+    "terser": "^5.10.0",
     "trim-newlines": "^4.0.2"
   },
   "devDependencies": {
