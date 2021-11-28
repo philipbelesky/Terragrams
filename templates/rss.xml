@@ -7,7 +7,7 @@
         <title>{{ config.title }}</title>
         <link>{{ config.base_url | escape_xml | safe }}</link>
         <lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
-        <language>{{ config.default_language }}</language>
+        <language>en-us</language>
         <generator>Zola</generator>
         <itunes:author>{{ config.extra.author }}</itunes:author>
         <itunes:subtitle>{{ config.extra.summary | truncate(length=4000) }}</itunes:subtitle>
