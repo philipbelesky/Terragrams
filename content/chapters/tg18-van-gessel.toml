@@ -1,1 +1,68 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Michael & Invisible Works"
+image = "michael.jpg"
+link = ""
+size = 3
+
+[[chapters]]
+time = "5:33"
+title = "Making and Seeing Invisibility"
+image = "monograph.jpg"
+link = "https://www.naibooksellers.nl/garden-landscape/monographs/michael-van-gessel-landscape-architect.html?___store=english&___from_store=default"
+size = 4
+
+[[chapters]]
+time = "12:59"
+title = "Generating Projects"
+image = "garden-1.jpg"
+link = "https://landezine.com/thoughts-on-the-work-by-michael-van-gessel/"
+credit = "The Cloister Garden, Emilio Troncoso / landezine"
+size = 8
+
+[[chapters]]
+time = "17:38"
+title = "New Natures"
+image = "bunnik.jpg"
+link = "http://www.michaelvangessel.com"
+credit = "Masterplan of the Rhijnauwen Old and New project, Michael van Gessel"
+size = 4
+
+[[chapters]]
+time = "25:03"
+title = "Ecological Terrain"
+image = "paths.jpg"
+link = "https://landezine.com/stronghold-grebbeberg-by-michael-van-gessel-landscape-architecture/"
+credit = "Plan from the Stronghold Grebbeberg project, Michael van Gessel"
+size = 6
+
+[[chapters]]
+time = "32:29"
+title = "Leaving an Office and Starting an Office"
+size = 3
+
+[[chapters]]
+time = "38:29"
+title = "Looking back at Parc de la Villette"
+image = "vilette.png"
+credit = "Bakkker en Bleeker's plan for the Parc de la Villette competition, reproduced from p105 of Johan Meeus' doctoral thesis \"Op zoek naar een instrumentarium voor ontwerpkritiek in de landschapsarchitectuur\""
+link = "https://research.wur.nl/en/publications/op-zoek-naar-een-instrumentarium-voor-ontwerpkritiek-in-de-landsc"
+size = 8
+# image of the B+B parc entry
+
+
+[[chapters]]
+time = "46:41"
+title = "Touring the USA"
+size = 3
+
+
+[[chapters]]
+time = "55:49"
+title = "The Fieldwork Catalogue"
+image = "fieldwork.jpg"
+link = "https://www.landscapearchitectureeurope.com/books/1-fieldwork/"
+size = 5
+
+
+# cloister garden https://ghassancontracting.wordpress.com/2011/02/17/cloister-garden-by-michael-van-gessel/
