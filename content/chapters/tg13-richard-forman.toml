@@ -1,16 +1,16 @@
 [[chapters]]
 time = "0:00"
 title = "Introducing Richard & the Urban Regions Book"
-image = "richard.jpg" # image of richard
+image = "richard.jpg"
 link = "https://www.gsd.harvard.edu/person/richard-t-t-forman/"
 size = 3
 
 [[chapters]]
 time = "6:28"
 title = "Tools & Patterns for Planning Urban Regions"
-image = "patterns.jpg" # find examples of patterns from his book
-link = "An example of spatial patterns illustrated from the Land Mosaics as illustrated by David Buckley Borden"
-credit = "https://www.davidbuckleyborden.com/the-forman-watercolor-diagrams"
+image = "patterns.jpg" 
+link = "https://www.davidbuckleyborden.com/the-forman-watercolor-diagrams"
+credit = "An example of spatial patterns illustrated from the Land Mosaics as illustrated by David Buckley Borden"
 size = 9
 
 [[chapters]]
