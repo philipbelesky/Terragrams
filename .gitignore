@@ -10,6 +10,7 @@ public/
 static/main.min.js
 static/main.min.js.map
 static/processed_images
+zola
 
 # Dev
 node_modules/

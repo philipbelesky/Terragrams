@@ -1,1 +1,51 @@
 [[chapters]]
+time = "1:05"
+title = "Earthworks and Beyond"
+image = "earthworks.jpeg"
+link = "https://www.abbeville.com/books/earthworks-and-beyond-by-john-beardsley-142-b"
+size = 5
+
+[[chapters]]
+time = "6:22"
+title = "The Evolution of Land Art"
+image = "probing.jpg"
+link = "https://trove.nla.gov.au/work/11403813"
+credit = "From the Probing the Earth exhibition catalogue"
+size = 6
+# maya lin; mal-chin (sp?); james turrel; richard serra [90s artists]
+
+[[chapters]]
+time = "11:57"
+title = "Dirty Work"
+image = "dirtywork.jpg"
+link = "https://www.gsd.harvard.edu/exhibition/dirty-work-exhibition/"
+size = 7
+
+[[chapters]]
+time = "21:08"
+title = "Modes of Inhabitation and Adaptation"
+image = "quilt.jpg"
+link = "https://trc-leiden.nl/trc-needles/regional-traditions/europe-and-north-america/patchwork-and-quilting/gees-bend-quilts"
+credit = "Example of a quilt, Gee’s Bend Quilters Collective"
+size = 5
+
+[[chapters]]
+time = "31:11"
+title = "Writing About Contemporary Designers"
+image = "byxbee.jpg"
+link = "http://www.hargreaves.com/work/byxbee-park/"
+credit = "Byxbee Park, by Hargreaves Jones, written about by John in \"Entropy and the new Landscapes\", from Hargreaves: Landscape Works (1996)"
+size = 6
+
+[[chapters]]
+time = "40:21"
+title = "Criticism & Debate"
+image = "celebration.png"
+link = "https://www.jstor.org/stable/44672835?refreqid=excelsior%3A8ed768daed9262e52b70271069f35fca&seq=1#metadata_info_tab_contents"
+credit = "From John Beardsley's \"A Mickey Mouse Utopia\", Landscape Architecture Magazine, FEBRUARY 1997, Vol. 87, No. 2, pp. 76-83, 92-93"
+size = 6
+
+[[chapters]]
+time = "48:45"
+title = "Landscape Tectonics"
+size = 3
