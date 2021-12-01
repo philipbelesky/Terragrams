@@ -1,7 +1,56 @@
 [[chapters]]
-time = ""
-title = "TODO"
-image = ""
-link = ""
-credit = ""
+time = "0:59"
+title = "Introducing René and SWA"
+image = "rene.png"
+link = "https://www.swagroup.com/principals/rene-bihan/"
+size = 4
+
+[[chapters]]
+time = "11:07"
+title = "The Bayview Opera House project"
 size = 3
+
+[[chapters]]
+time = "16:11"
+title = "Working in Beijing"
+image = "finance.jpg"
+link = "https://www.swagroup.com/projects/beijing-finance-street/"
+credit = "The Beijing Finance Street project, SWA Group & SOM"
+size = 9
+
+[[chapters]]
+time = "26:59"
+title = "Contexts and Cultures"
+size = 2
+
+[[chapters]]
+time = "32:24"
+title = "Coming to Landscape Architecture"
+size = 3
+
+[[chapters]]
+time = "38:27"
+title = "Contexts and Crafts"
+image = "mexico.jpg"
+link = "https://www.swagroup.com/projects/universidad-de-monterrey-campus-master-plan/?type=commercial_mixed_use"
+credit = "The Universidad de Monterrey Campus Master Plan, SWA Group"
+size = 9
+
+[[chapters]]
+time = "45:11"
+title = "Urban Creek Restoration" # city creek reserve, church of latter day saints, taubman developer, zgf, ffkr
+image = "creek.jpg"
+link = "https://www.swagroup.com/projects/city-creek-center/"
+credit = "The City Creek project, SWA Group"
+size = 8
+
+[[chapters]]
+time = "48:33"
+title = "Design Ideation"
+size = 3
+
+[[chapters]]
+time = "51:01"
+title = "Future Roles"
+size = 3
+
