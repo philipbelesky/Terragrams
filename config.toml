@@ -3,7 +3,7 @@ base_url = "https://terragrams.com"
 
 title = "Terragrams"
 # Below is used as the podcast show description — max 4000 characters
-description = "Terragrams is a podcast series providing a wide portal into the world of landscape architecture by the professionals who shape it. Running from 2006 to 2012, the podcast dispatched over 30 interviews. It is being re-edited and re-broadcast across 2020 and 2021."
+description = "Terragrams is a podcast series providing a wide portal into the world of landscape architecture by the professionals who shape it. Running from 2006 to 2012, the podcast dispatched over 30 interviews. It is now being re-edited and re-broadcast."
 # The default language, used in RSS
 default_language = "en"
 
