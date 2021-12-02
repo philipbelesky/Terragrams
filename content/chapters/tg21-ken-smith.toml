@@ -1,7 +1,67 @@
 [[chapters]]
-time = ""
-title = "TODO"
-image = ""
-link = ""
-credit = ""
+time = "0:00"
+title = "Introducing Ken"
+image = "ken.png"
+size = 4
+
+[[chapters]]
+time = "1:07"
+title = "Plastic Rocks & Orange County"
+image = "organge-county.jpg"
+link = "http://www.kensmithworkshop.com/ocgp-master-plan.html"
+credit = "Overview of the Orange County Great Park project, Ken Smith Workshop"
+size = 8
+
+[[chapters]]
+time = "8:00"
+title = "Manga & Bioswales"
+image = "narrative-dwgs.png"
+credit = "Narrative drawings from the competition package, Ken Smith Workshop"
+size = 4
+
+[[chapters]]
+time = "20:09"
+title = "Topographic Strategies & Justifications"
+image = "topography.jpg"
+link = "https://www.asla.org/awards/2008/08winners/127.html"
+credit = "Ken Smith Workshop, via the ASLA Awards"
+size = 7
+
+[[chapters]]
+time = "29:09"
+title = "Scales of Operation"
+image = "telapur.png"
+link = "http://www.kensmithworkshop.com/telapur.html"
+credit = "Drawings from the Tellapur Master Plan, Ken Smith Workshop"
+size = 9
+
+[[chapters]]
+time = "41:01"
+title = "Small Offices"
+size = 3
+
+[[chapters]]
+time = "46:52"
+title = "Origins and Studies"
+size = 4
+
+[[chapters]]
+time = "49:56"
+title = "Artistry in Landscape Architecture"
+image = "community-garden.jpg"
+link = "http://www.kensmithworkshop.com/bedstuy-community-garden.html"
+credit = "Vine Screens in the Bedford Stuyvesant Community Garden, Ken Smith Workshop"
+size = 7
+
+[[chapters]]
+time = "59:27"
+title = "John Cage and Clouds"
+image = "wallflowers.jpg"
+link = "http://www.kensmithworkshop.com/wallflowers-osu.html"
+credit = "The WallFlowers project at Ohio State University, Ken Smith Workshop"
+size = 8
+
+[[chapters]]
+time = "1:04:04"
+title = "The Biennial's Selections"
 size = 3
