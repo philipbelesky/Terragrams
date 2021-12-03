@@ -4,8 +4,8 @@ description = "René Bihan is a registered landscape architect and the managing 
 date = 2021-12-01
 [extra]
 chapters = true
-byte_length = "TODO"
-duration = "TODO"
+byte_length = "71215802"
+duration = "3467"
 original_date = 2009-08-09
 file = "TG20-Rene-Bihan.mp3"
 +++
