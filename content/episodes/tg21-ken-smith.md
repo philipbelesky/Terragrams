@@ -1,7 +1,7 @@
 +++
 title = "Dispatch 21: Ken Smith"
 description = "Ken is the founder of the Ken Smith Workshop. He is most well-known for his Camouflage Roof Garden on the Museum of Modern Art and his current work for the Orange County Great Park in Irvine, California. In this dispatch, Ken discusses his work for the Orange County Great Park, working in India, growing up on a farm, John Cage, the European condition, and his first jobs out of college."
-date = 2021-12-02
+date = 2022-01-27
 [extra]
 chapters = true
 byte_length = "88558167"
