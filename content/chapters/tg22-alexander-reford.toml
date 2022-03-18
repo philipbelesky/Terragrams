@@ -1,7 +1,68 @@
 [[chapters]]
-time = ""
-title = "TODO"
-image = ""
-link = ""
-credit = ""
+time = "0:00"
+title = "Introducing Alexander"
+image = "alexander.png"
 size = 3
+
+[[chapters]]
+time = "1:18"
+title = "Origins of the Festival"
+image = "garden0.jpg"
+link = "http://www.internationalgardenfestival.com/Pré-et-marée/Susan-Herrington/?y=2000"
+credit = "Susan Herrington's Pré et marée, exhibited at the first Festival"
+size = 6
+
+[[chapters]]
+time = "7:37"
+title = "The Future of the Festival"
+image = "reflexions.jpg"
+link = "https://www.halingberg.com/reflexions-colorees"
+credit = "Réflexions colorées, by Hal Ingberg"
+size = 8
+
+[[chapters]]
+time = "13:40"
+title = "The History of the Gardens"
+image = "longwalk.jpg"
+link = "https://jardinsdemetis.com/en/historic-gardens/"
+credit = "The Long Walk historic garden at Reford"
+size = 4
+
+[[chapters]]
+time = "31:48"
+title = "Local Outreach & Planning"
+size = 5
+
+[[chapters]]
+time = "40:47"
+title = "History & Tourism"
+size = 4
+
+[[chapters]]
+time = "44:28"
+title = "The Bluestick Garden"
+image = "bluestick.jpg"
+link = "https://www.claudecormier.com/en/projet/jardin-de-batons-bleus/"
+credit = "The Bluestick Garden, by Claude Cormier"
+size = 11
+
+[[chapters]]
+time = "51:14"
+title = "Documentaries & Blogs"
+link = "https://reframe-films.com/en/films/twice-upon-a-garden/"
+size = 4
+
+[[chapters]]
+time = "59:38"
+title = "Memorable Gardens"
+image = "Eucalyptus.jpeg"
+link = "https://www.biophiliarts.com/post/2017/10/12/kate-cullity-firestick-design"
+credit = "Kate Cullity's \"Eucalyptus – Light and Shadow\" garden"
+size = 8
+
+
+[[chapters]]
+time = "1:06:44"
+title = "Research & Books"
+size = 5
+
