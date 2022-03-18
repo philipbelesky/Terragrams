@@ -1,0 +1,67 @@
+[[chapters]]
+time = "0:00"
+title = "Introducing Gabriele"
+image = "gabriele.png"
+size = 4
+
+[[chapters]]
+time = "0:48"
+title = "Opfikerpark" # biennale project park showing urban promenade
+image = "opfikerpark-aerial.jpg"
+link = "http://www.arquitectes.cat/iframes/paisatge/fitxa/76"
+credit = "The Opfikerpark, design by Büro Kiefer Landschaftsarchitekt"
+size = 8
+
+[[chapters]]
+time = "4:41"
+title = "Voids and Edges"
+image = "opfikerpark.jpg" # images showing bridges across site
+link = "https://divisare.com/projects/16991-buro-kiefer-landschaftsarchitekt-hanns-joosten-developing-the-oberhauserriet-marshland-glattpark-opfikon"
+credit = "Plan of the Opfikerpark (now Glattpark), drawing by Büro Kiefer Landschaftsarchitekt"
+size = 10
+
+[[chapters]]
+time = "9:25"
+title = "Berlin's History"
+size = 3
+
+[[chapters]]
+time = "14:28"
+title = "Starting a Practice"
+image = "monograph.png" # competition entry from early 90s for housing or for olypmics around the same time (which they won)
+link = "https://www.amazon.com/Büro-Kiefer-Landscape-Thies-Schröder/dp/B007K4TEBU"
+credit = "The Büro Kiefer: Landscape Design monograph (published 2006)"
+size = 5
+
+[[chapters]]
+time = "18:42"
+title = "Logics & Influences"
+size = 3
+
+[[chapters]]
+time = "26:52"
+title = "Reclaiming Typologies"
+image = "airport.png" # military or industrial re-use projects
+link = "http://officeforurbanization.org/wp-content/uploads/2019/03/Airfield-Manual_OfficeForUrbanization.pdf"
+credit = "Buro Kiefer Landschaftsarchitektur's plan for Landscape Park Johannisthal, redrawn in pg 52-53 of the Office For Urbanization's 2017 Airfield Manual: Field Guide to the Transformation of Abandoned Airports."
+size = 10
+
+[[chapters]]
+time = "34:27"
+title = "Teaching"
+size = 2
+
+[[chapters]]
+time = "39:09"
+title = "Exhibiting Landscape Architecture"
+size = 4
+
+[[chapters]]
+time = "43:38"
+title = "The Biennal"
+size = 3
+
+[[chapters]]
+time = "47:52"
+title = "Future Works"
+size = 5
