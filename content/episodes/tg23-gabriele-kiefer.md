@@ -1,7 +1,7 @@
 +++
 title = "Dispatch 23: Gabriele Kiefer"
 description = "Gabriele Kiefer founded Büro Kiefer, a landscape architecture studio that has worked across Germany and Europe. She was a finalist in Barcelona's 5th Biennal of landscape architecture for a project on the outskirts of Switzerland. Here,  Gabriele discusses her Opfiker Park in Zurich, her major influences, her teaching, former industrial sites, and the fall of the Berlin Wall."
-date = 2024-03-01
+date = 2022-03-21
 [extra]
 chapters = true
 byte_length = "23727224"
