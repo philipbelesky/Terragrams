@@ -1,0 +1,41 @@
+[[chapters]]
+time = "0:00"
+title = "Introducing Maria"
+image = "maria.png"
+size = 3
+
+[[chapters]]
+time = "1:19"
+title = "The 5th Biennial"
+size = 2
+
+[[chapters]]
+time = "7:05"
+title = "Judging the Rosa Barbara"
+image = "P017F3.jpg"
+link = "http://www.arquitectes.cat/iframes/paisatge/fitxa/17"
+credit = "The Open Spaces Project For Ligurian Estate by Laura Zampieri"
+size = 7
+
+[[chapters]]
+time = "22:01"
+title = "Landscape architecture, as a profession, in Barcelona"
+size = 5
+
+[[chapters]]
+time = "31:11"
+title = "The Center of Landscape Research"
+size = 3
+
+[[chapters]]
+time = "38:58"
+title = "Landscape Atlases" # PhD Thesis
+image = "thesis.png"
+link = "https://upcommons.upc.edu/handle/2117/95687"
+credit = "Image by Maria Goula, from pg. 351 of her dissertation — \"The other landscapes: readings of the variable image\""
+size = 9
+
+[[chapters]]
+time = "52:00"
+title = "The European Landscape Convention"
+size = 3
