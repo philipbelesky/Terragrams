@@ -1,7 +1,60 @@
 [[chapters]]
-time = ""
-title = ""
-image = ""
-link = ""
-credit = ""
+time = "0:00"
+title = "Introducing Marc"
+image = "marc.png"
+size = 3
+
+[[chapters]]
+time = "2:09"
+title = "Representation & Technology"
+image = "representing-la.jpg"
+size = 6
+
+[[chapters]]
+time = "13:20"
+title = "Fresh Kills Finalists"
+image = "fresh-kills-staging.jpg"
+link = "https://www.fieldoperations.net/project-details/project/freshkills-park.html"
+credit = "Staging strategy for Fresh Kills, James Corner Field Operations"
+size = 10
+
+[[chapters]]
+time = "17:30"
+title = "Ken Smith Workshop Drawings"
+image = "narrative-dwgs.png"
+credit = "Narrative drawings from the Orange County Great Park Master Pla competition, Ken Smith Workshop"
+size = 6
+
+[[chapters]]
+time = "19:28"
+title = "Meaning & Evaluation"
+size = 3
+
+[[chapters]]
+time = "25:36"
+title = "Sustainability & Use"
+size = 3
+
+[[chapters]]
+time = "30:31"
+title = "The Philips Pavillion"
+image = "philips-pavillion.jpg"
+link = "https://commons.wikimedia.org/wiki/File:Expo58_building_Philips.jpg"
+credit = "Le Corbusier and Iannis Xenakis' Philips Pavilion at Expo '58"
+size = 8
+
+[[chapters]]
+time = "36:28"
+title = "Coming to Landscape"
+size = 3
+
+[[chapters]]
+time = "42:38"
+title = "History & Theory"
+image = "modernla.jpg"
+size = 5
+
+[[chapters]]
+time = "49:56"
+title = "Teaching & Impact"
 size = 4
