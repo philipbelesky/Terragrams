@@ -16,7 +16,7 @@
   "author": "Philip Belesky",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.9.3",
+    "bulma": "^0.9.4",
     "html-proofer": "0.0.1",
     "instant.page": "^5.1.0",
     "path-parse": "^1.0.7",
