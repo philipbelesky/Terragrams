@@ -1,7 +1,53 @@
 [[chapters]]
-time = ""
-title = ""
-image = ""
-link = ""
-credit = ""
+time = "0:00"
+title = "Introducing Claude"
+image = "claude.png"
+size = 3
+
+[[chapters]]
+time = "2:42"
+title = "The Bluestick Garden"
+image = "bluestick.jpg"
+link = "https://www.claudecormier.com/en/projet/jardin-de-batons-bleus/"
+credit = "The Bluestick Garden, by Claude Cormier"
+size = 9
+
+[[chapters]]
+time = "18:11"
+title = "Color & Conceptualism"
+image = "lipstick-forest.jpg" # Lipstick forest project, or detroit project
+link = "https://www.claudecormier.com/en/projet/lipstick-forest/"
+credit = "The Lipstick Forest, by Claude Cormier"
+size = 9
+
+[[chapters]]
+time = "21:45"
+title = "Coming to Landscape"
+size = 3
+
+[[chapters]]
+time = "26:57"
+title = "The Office's Evolution"
+size = 2
+
+[[chapters]]
+time = "35:31"
+title = "Ideation & Controversy"
+image = "hto.jpg"
+link = "https://www.claudecormier.com/en/projet/hto-urban-beach/"
+credit = "The HtO Beach project, by Claude Cormier"
+size = 10
+
+[[chapters]]
+time = "41:46"
+title = "Innovation & Simplicity"
+image = "sugar.jpg"
+link = "https://www.claudecormier.com/en/projet/sugar-beach/"
+credit = "The Sugar Beach project, by Claude Cormier"
+size = 8
+
+[[chapters]]
+time = "48:03"
+title = "Constraints & Motivations"
 size = 4
+
