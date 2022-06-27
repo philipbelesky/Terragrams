@@ -1,7 +1,56 @@
 [[chapters]]
-time = ""
-title = ""
-image = ""
-link = ""
-credit = ""
+time = "0:00"
+title = "Introducing Stefan"
+image = "stefan.png"
+size = 3
+
+[[chapters]]
+time = "1:44"
+title = "Ernst Cramer"
+image = "poets_garden.png"
+link = "https://www.e-periodica.ch/cntmng?pid=ant-001%3A2009%3A48%3A%3A414"
+credit = "Cramer's Poet's Garden at the 1st Swiss Horticulture Exhibition, from Zeitschrift für Landschaftsarchitektur Une Revue pour le Paysage, Nr. 1, 2001"
+size = 9
+
+[[chapters]]
+time = "14:35"
+title = "Coming to Landscape Architecture"
+size = 3
+
+[[chapters]]
+time = "19:15"
+title = "Roughness & Minimalism"
+image = "lettenareal.jpg"
+link = "https://krebsundherde.ch/projekte/promenade-flussbad-lettenareal-zuerich-2/"
+credit = "Promenade & River Bath Lettenareal, via Krebs und Herde"
+size = 8
+
+[[chapters]]
+time = "28:50"
+title = "Swiss Landscapes"
+size = 4
+
+[[chapters]]
+time = "33:51"
+title = "Running a Practice"
+size = 5
+
+[[chapters]]
+time = "37:45"
+title = "Design Competitions" # V Wankhdorf masterplan near Bern?
+size = 4
+
+[[chapters]]
+time = "42:54"
+title = "Design Collaborations"
+size = 5
+
+[[chapters]]
+time = "49:28"
+title = "Invention & Mistakes"
+size = 2
+
+[[chapters]]
+time = "59:49"
+title = "Strategy & Photography"
 size = 4

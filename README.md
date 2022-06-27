@@ -10,7 +10,7 @@ This repository might be of interest if:
 
 ## Installation
 
-- Requires Zola to be installer - see their docs
+- Requires Zola to be installed - see their docs
 - Requires node/npm and the usual `npm install`
 - Optionally install ruby and gems for testing
 - Use `npm run preview` to start a development server
