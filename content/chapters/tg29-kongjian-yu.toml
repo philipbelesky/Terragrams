@@ -1,4 +1,44 @@
 [[chapters]]
+time = "0:00"
+title = "Introducing Kongjian Yu"
+image = ""
+link = ""
+credit = ""
+size = 4
+
+[[chapters]]
+time = "2:16"
+title = "Little Foot Urbanism"
+image = ""
+link = ""
+credit = ""
+size = 4
+
+[[chapters]]
+time = "7:26"
+title = "New Chinese Cities" # Could be folded back?
+image = ""
+link = ""
+credit = ""
+size = 4
+
+[[chapters]]
+time = "11:30"
+title = "Models of Density & Mobility"
+image = ""
+link = ""
+credit = ""
+size = 4
+
+[[chapters]]
+time = ""
+title = ""
+image = ""
+link = ""
+credit = ""
+size = 4
+
+[[chapters]]
 time = ""
 title = ""
 image = ""
