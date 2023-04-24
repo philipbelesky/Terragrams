@@ -25,7 +25,7 @@
     "trim-newlines": "^4.0.2"
   },
   "devDependencies": {
-    "stylelint": "^13.13.1",
+    "stylelint": "^15.6.0",
     "stylelint-config-standard": "^22.0.0"
   }
 }
