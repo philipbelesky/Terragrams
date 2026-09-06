@@ -1,0 +1,7 @@
+# linear CLI project config (https://github.com/schpet/linear-cli).
+# Scopes `linear` to the personal philipb workspace / Philip Inc (PHI) team.
+# Identity (which Linear user) is NOT set here — it comes from each agent's
+# LINEAR_API_KEY, injected at launch. Never put api_key in this file.
+workspace = "philipb"
+team_id = "PHI"
+issue_sort = "manual"

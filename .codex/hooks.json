@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 \"$(git rev-parse --show-toplevel)/.codex/hooks/web_post_tool_use.py\"",
+            "statusMessage": "Formatting, type checking, and linting..."
+          }
+        ]
+      }
+    ]
+  }
+}

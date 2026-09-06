@@ -1,0 +1,32 @@
+approval_policy = "never"
+sandbox_mode = "danger-full-access" # needs for doing anything with .agents
+
+[mcp_servers.context7]
+  command = "npx"
+  args = ["-y", "@upstash/context7-mcp@latest"]
+
+[mcp_servers.playwright]
+  command = "npx"
+  args = ["@playwright/mcp@latest"]
+
+[mcp_servers.chrome-devtools]
+  command = "npx"
+  args = ["chrome-devtools-mcp@latest", "--scope", "user"]
+
+# [mcp_servers.paper]
+#   url = "http://127.0.0.1:29979/mcp"
+
+# Cloudflare documentation MCP (public, no auth) — current CF docs retrieval.
+# Account-scoped CF servers (bindings/builds/observability) stay per-project opt-in:
+# they need `codex mcp login cloudflare` and touch live infra, so not in the template.
+[mcp_servers.cloudflare-docs]
+  url = "https://docs.mcp.cloudflare.com/mcp"
+
+# Sentry hosted MCP (OAuth). Error/issue triage, Seer root-cause, project queries.
+# First use prompts an OAuth login: `codex mcp login sentry`.
+[mcp_servers.sentry]
+  url = "https://mcp.sentry.dev/mcp"
+
+# allow network acess
+[sandbox_workspace_write]
+  network_access = true

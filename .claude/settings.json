@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "attribution": {
+    "sessionUrl": true
+  },
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "mcp__plugin_imessage_imessage__*",
+      "mcp__plugin_telegram_telegram__*",
+      "mcp__claude-in-chrome__*"
+    ]
+  },
+  "enabledPlugins": {
+    "typescript-lsp@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Edit(**/*.[jt]s*)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Write(**/*.[jt]s*)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Edit(**/*.[mc][jt]s)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Write(**/*.[mc][jt]s)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Edit(**/*.css)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Write(**/*.css)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Edit(**/*.svelte)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Write(**/*.svelte)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Edit(**/*.vue)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Write(**/*.vue)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Edit(**/*.astro)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          },
+          {
+            "type": "command",
+            "if": "Write(**/*.astro)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.agents/scripts/claude-web-post-write-check.sh\"",
+            "asyncRewake": true,
+            "statusMessage": "Running project checks..."
+          }
+        ]
+      }
+    ]
+  }
+}
