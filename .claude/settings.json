@@ -4,7 +4,6 @@
     "sessionUrl": true
   },
   "permissions": {
-    "defaultMode": "bypassPermissions",
     "allow": [
       "mcp__plugin_imessage_imessage__*",
       "mcp__plugin_telegram_telegram__*",
